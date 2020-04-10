@@ -1,2 +1,3 @@
 # JetbrainsAcademy
-JetBrains Academy files
+JetBrains Academy files - Personal Curriculum
+to become a Java Developer

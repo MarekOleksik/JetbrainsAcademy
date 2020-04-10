@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Problems-A_simple_calculator_main" target="11" />
+      <module name="Problems-A_simple_calculator_test" target="11" />
       <module name="Problems-Arithmetic_average_main" target="11" />
       <module name="Problems-Arithmetic_average_test" target="11" />
       <module name="Problems-Check_a_number_is_positive_main" target="11" />
@@ -20,6 +22,8 @@
       <module name="Problems-Decrement_all_test" target="11" />
       <module name="Problems-Desks_main" target="11" />
       <module name="Problems-Desks_test" target="11" />
+      <module name="Problems-Direction_main" target="11" />
+      <module name="Problems-Direction_test" target="11" />
       <module name="Problems-Division_main" target="11" />
       <module name="Problems-Division_test" target="11" />
       <module name="Problems-Even_or_odd_main" target="11" />
@@ -28,6 +32,8 @@
       <module name="Problems-Exactly_one_parameter_is_positive_test" target="11" />
       <module name="Problems-Extracting_a_substring_main" target="11" />
       <module name="Problems-Extracting_a_substring_test" target="11" />
+      <module name="Problems-From_string_to_a_number_main" target="11" />
+      <module name="Problems-From_string_to_a_number_test" target="11" />
       <module name="Problems-Groundhogs_at_a_party_main" target="11" />
       <module name="Problems-Groundhogs_at_a_party_test" target="11" />
       <module name="Problems-Leap_year_main" target="11" />
