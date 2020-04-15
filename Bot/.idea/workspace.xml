@@ -2,47 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cf384e4-8211-458f-adb7-04b82a8efb1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Problems-A_simple_calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Problems-A_simple_calculator_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Problems-A_simple_calculator_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Direction/Problems-Direction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Direction/Problems-Direction_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Direction/Problems-Direction_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/From string to a number/Problems-From_string_to_a_number.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/From string to a number/Problems-From_string_to_a_number_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/From string to a number/Problems-From_string_to_a_number_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Direction/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Direction/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Direction/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Direction/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/From string to a number/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/From string to a number/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/From string to a number/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/From string to a number/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/src/bot/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Blacklist/Problems-Blacklist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Blacklist/Problems-Blacklist_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Blacklist/Problems-Blacklist_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Check the value/Problems-Check_the_value.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Check the value/Problems-Check_the_value_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Check the value/Problems-Check_the_value_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Creating a set/Problems-Creating_a_set.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Output elements/Problems-Output_elements.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Output elements/Problems-Output_elements_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Output elements/Problems-Output_elements_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Safe converting/Problems-Safe_converting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Safe converting/Problems-Safe_converting_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Safe converting/Problems-Safe_converting_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Spell checker/Problems-Spell_checker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Spell checker/Problems-Spell_checker_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules/Problems/Spell checker/Problems-Spell_checker_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid NPE/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid NPE/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid NPE/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid NPE/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid division by zero/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid division by zero/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid division by zero/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Avoid division by zero/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Blacklist/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Blacklist/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Blacklist/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Blacklist/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Boxes are not just objects!/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Boxes are not just objects!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Boxes are not just objects!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Boxes are not just objects!/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Check the value/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Check the value/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Check the value/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Check the value/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Creating a set/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Creating a set/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Creating a set/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Creating a set/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Harry Potter/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Harry Potter/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Harry Potter/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Harry Potter/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Only true or false/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Only true or false/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Only true or false/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Only true or false/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Output elements/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Output elements/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Output elements/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Output elements/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Pastry packing optimization/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Pastry packing optimization/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Pastry packing optimization/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Pastry packing optimization/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Return empty string when argument is null/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Return empty string when argument is null/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Return empty string when argument is null/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Return empty string when argument is null/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Safe converting/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Safe converting/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Safe converting/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Safe converting/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Spell checker/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Spell checker/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Spell checker/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flashcards/Problems/Spell checker/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flashcards/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcards/Problems/lesson-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
