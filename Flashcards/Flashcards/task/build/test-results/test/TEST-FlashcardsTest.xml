@@ -1,91 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-15T08:23:56" hostname="komputer" time="0.249">
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-04-16T22:01:25" hostname="komputer" time="0.634">
   <properties/>
-  <testcase name="start" classname="FlashcardsTest" time="0.249"/>
+  <testcase name="start" classname="FlashcardsTest" time="0.634">
+    <failure message="java.lang.AssertionError: Exception in test #5&#10;&#10;Probably your program run out of input (Scanner tried to read more than expected).&#10;&#10;java.util.NoSuchElementException&#13;&#10;&#9;at java.base/java.util.Scanner.throwFor(Scanner.java:937)&#13;&#10;&#9;at java.base/java.util.Scanner.next(Scanner.java:1478)&#13;&#10;&#9;at flashcards.Main.importFile(Main.java:98)&#13;&#10;&#9;at flashcards.Main.main(Main.java:32)&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; add&#10;The card:&#10;&gt; Great Britain&#10;The definition of the card:&#10;&gt; London&#10;The pair(&quot;Great Britain&quot;:&quot;London&quot;) has been added.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; remove&#10;The card:&#10;&gt; Wakanda&#10;Can't remove &quot;Wakanda&quot;: there is no such card.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; export&#10;File name:&#10;&gt; capitals.txt&#10;1 cards have been saved.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; import&#10;File name:&#10;&gt; capitals.txt" type="java.lang.AssertionError">java.lang.AssertionError: Exception in test #5
+
+Probably your program run out of input (Scanner tried to read more than expected).
+
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at flashcards.Main.importFile(Main.java:98)
+	at flashcards.Main.main(Main.java:32)
+
+Please find below the output of your program during this failed test.
+Note that the '&gt;' character indicates the beginning of the input line.
+
+---
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; add
+The card:
+&gt; Great Britain
+The definition of the card:
+&gt; London
+The pair(&quot;Great Britain&quot;:&quot;London&quot;) has been added.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; remove
+The card:
+&gt; Wakanda
+Can't remove &quot;Wakanda&quot;: there is no such card.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; export
+File name:
+&gt; capitals.txt
+1 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; import
+File name:
+&gt; capitals.txt
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-Input the number of cards: 
->2
-The card #1:
->black
-The definition of the card #1:
->white
-The card #2:
->black
-The card "black" already exists. Try again:
->red
-The definition of the card #2:
->white
-The definition "white" already exists. Try again:
->green
+Input the action (add, remove, import, export, ask, exit):
+> add
+The card:
+> black
+The definition of the card:
+> white
+The pair("black":"white") has been added.
+
+Input the action (add, remove, import, export, ask, exit):
+> add
+The card:
+> black
+The card "black" already exists.
+
+Input the action (add, remove, import, export, ask, exit):
+> add
+The card:
+> red
+The definition of the card:
+> white
+The definition "white" already exists.
+
+Input the action (add, remove, import, export, ask, exit):
+> ask
+How many times to ask?
+> 2
 Print the definition of "black":
->white
+> white
 Correct answer.
-Print the definition of "red":
->green
-Correct answer.
+Print the definition of "black":
+> green
+Wrong answer. The correct one is "white".
+Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!
 ?[1;31m
 Start test 2?[0m
-Input the number of cards: 
->2
-The card #1:
->a brother of one's parent
-The definition of the card #1:
->uncle
-The card #2:
->a part of the body where the foot and the leg meet
-The definition of the card #2:
->ankle
+Input the action (add, remove, import, export, ask, exit):
+> add
+The card:
+> a brother of one's parent
+The definition of the card:
+> uncle
+The pair("a brother of one's parent":"uncle") has been added.
+
+Input the action (add, remove, import, export, ask, exit):
+> add
+The card:
+> a part of the body where the foot and the leg meet
+The definition of the card:
+> ankle
+The pair("a part of the body where the foot and the leg meet":"ankle") has been added.
+
+Input the action (add, remove, import, export, ask, exit):
+> ask
+How many times to ask?
+> 6
 Print the definition of "a brother of one's parent":
->ankle
+> ankle
 Wrong answer. The correct one is "uncle", you've just written the definition of "a part of the body where the foot and the leg meet".
-Print the definition of "a part of the body where the foot and the leg meet":
->???
-Wrong answer. The correct one is "ankle".
+Print the definition of "a brother of one's parent":
+> ??
+Wrong answer. The correct one is "uncle".
+Print the definition of "a brother of one's parent":
+> uncle
+Correct answer.
+Print the definition of "a brother of one's parent":
+> ankle
+Wrong answer. The correct one is "uncle", you've just written the definition of "a part of the body where the foot and the leg meet".
+Print the definition of "a brother of one's parent":
+> ??
+Wrong answer. The correct one is "uncle".
+Print the definition of "a brother of one's parent":
+> uncle
+Correct answer.
+Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!
 ?[1;31m
 Start test 3?[0m
-Input the number of cards: 
->4
-The card #1:
->c1
-The definition of the card #1:
->d1
-The card #2:
->c2
-The definition of the card #2:
->d2
-The card #3:
->c3
-The definition of the card #3:
->d3
-The card #4:
->c3
-The card "c3" already exists. Try again:
->c2
-The card "c2" already exists. Try again:
->c1
-The card "c1" already exists. Try again:
->c4
-The definition of the card #4:
->d2
-The definition "d2" already exists. Try again:
->d3
-The definition "d3" already exists. Try again:
->d1
-The definition "d1" already exists. Try again:
->d4
-Print the definition of "c1":
->d1
-Correct answer.
-Print the definition of "c2":
->d1
-Wrong answer. The correct one is "d2", you've just written the definition of "c1".
-Print the definition of "c3":
->d3 ddd3
-Wrong answer. The correct one is "d3".
-Print the definition of "c4":
->???
-Wrong answer. The correct one is "d4".
+Input the action (add, remove, import, export, ask, exit):
+> export
+File name:
+> capitals.txt
+0 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit):
+> export
+File name:
+> capitalsNew.txt
+0 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!
+?[1;31m
+Start test 4?[0m
+Input the action (add, remove, import, export, ask, exit):
+> import
+File name:
+> ghost_file.txt
+File not found.
+
+Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!
+?[1;31m
+Start test 5?[0m
+Input the action (add, remove, import, export, ask, exit):
+> add
+The card:
+> Great Britain
+The definition of the card:
+> London
+The pair("Great Britain":"London") has been added.
+
+Input the action (add, remove, import, export, ask, exit):
+> remove
+The card:
+> Wakanda
+Can't remove "Wakanda": there is no such card.
+
+Input the action (add, remove, import, export, ask, exit):
+> export
+File name:
+> capitals.txt
+1 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit):
+> import
+File name:
+> capitals.txt
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

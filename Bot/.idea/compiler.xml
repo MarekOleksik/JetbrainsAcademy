@@ -36,6 +36,8 @@
       <module name="Problems-From_string_to_a_number_test" target="11" />
       <module name="Problems-Groundhogs_at_a_party_main" target="11" />
       <module name="Problems-Groundhogs_at_a_party_test" target="11" />
+      <module name="Problems-Interval_main" target="11" />
+      <module name="Problems-Interval_test" target="11" />
       <module name="Problems-Leap_year_main" target="11" />
       <module name="Problems-Leap_year_test" target="11" />
       <module name="Problems-Next_even_number_main" target="11" />

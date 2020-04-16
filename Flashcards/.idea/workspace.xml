@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc621239-5905-4f84-9731-0f19d7dae23b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bot/.idea/modules/Problems/Interval/Problems-Interval.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bot/.idea/modules/Problems/Interval/Problems-Interval_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bot/.idea/modules/Problems/Interval/Problems-Interval_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bot/Problems/Interval/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bot/Problems/Interval/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bot/Problems/Interval/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bot/Problems/Interval/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_v7_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11842710809894599002_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12064517694653022169_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_14339009736069527530_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15587623399942801486_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_16370539210223560349_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_18316386513664353580_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2605602059402631604_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/capitals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/capitalsNew.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Interval/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Interval/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Interval/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Interval/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capitals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/export.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/Hello! What’s your name/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/Hello! What’s your name/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/reports/tests/test/classes/PersonalAssistantTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/reports/tests/test/classes/PersonalAssistantTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/test-results/test/TEST-PersonalAssistantTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/test-results/test/TEST-PersonalAssistantTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/Simple Chatty Bot/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_v6_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1__main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1__test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2__main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2__test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/A good stack/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/A good stack/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/A good stack/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/A good stack/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/A good stack/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/A good stack/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/IMPORTant/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/IMPORTant/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/IMPORTant/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/IMPORTant/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/IMPORTant/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/IMPORTant/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Make it your own/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Make it your own/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Make it your own/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Make it your own/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Make it your own/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Make it your own/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Menu, please!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Menu, please!/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Menu, please!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Menu, please!/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Menu, please!/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Menu, please!/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Stage one, card one/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Stage one, card one/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Statistics/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Statistics/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Statistics/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Statistics/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/Statistics/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Statistics/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/What’s on the card/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/What’s on the card/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/What’s on the card/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/What’s on the card/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/What’s on the card/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/What’s on the card/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/classes/FlashcardsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/classes/FlashcardsTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/TEST-FlashcardsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/TEST-FlashcardsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_10524529087911323590_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11092603404955592647_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11187134467498235959_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_1141564718517785110_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11516007888460998453_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12045388918346238839_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12188068573360789560_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12379961274696929751_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12554109138540770541_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12765923725503336129_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13290621134978956969_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13483465617628688156_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13484800932092307299_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13586636276394857923_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_14638977528968784771_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15436360417691446228_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15791468967120858854_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15865208225377272446_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_1670795908053315759_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_16944419975842439524_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17367555059139302682_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17493697653890206619_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17494593947836498469_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17523782185924734663_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17628925073479885456_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17744016052186685876_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_18402490731009642626_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2072249248909929801_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2437304954419756731_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2618527736148033962_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_4390762235253843005_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_4968093455430835065_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5225608433726487291_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5421688298759990294_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5576648131663823215_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5693825217232333262_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_57182863665910706_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5858374480034649859_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7287972317961105742_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7288756066103999126_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7575924827342697830_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7755157854280459083_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7800344836052089758_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_9270336112527885722_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_9845511702867206436_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/out/production/classes/META-INF/Flashcards-task.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/src/flashcards/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/src/flashcards/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/src/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/test/common/DialogClue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/test/common/DialogClue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/test/common/FlashcardsStage5Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/test/common/FlashcardsStage5Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account Service/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account Service/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account Service/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account Service/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account and its owner/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account and its owner/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account and its owner/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account and its owner/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Account/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Application as a class/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Application as a class/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Application as a class/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Application as a class/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Are siblings/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Are siblings/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Are siblings/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Are siblings/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Army/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Army/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Army/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Army/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid NPE/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid NPE/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid NPE/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid NPE/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid division by zero/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid division by zero/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid division by zero/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Avoid division by zero/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Binary search/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Binary search/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Binary search/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Binary search/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Blacklist/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Blacklist/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Blacklist/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Blacklist/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Book/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Book/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Book/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Book/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Books/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Books/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Books/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Books/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boxes are not just objects!/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boxes are not just objects!/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boxes are not just objects!/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boxes are not just objects!/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Catching some exceptions/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Catching some exceptions/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Catching some exceptions/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Catching some exceptions/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Classes for Hospital/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Classes for Hospital/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Classes for Hospital/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Classes for Hospital/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Compact strings with AsciiCharSequence/src/AsciiCharSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Compact strings with AsciiCharSequence/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Compact strings with AsciiCharSequence/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Compact strings with AsciiCharSequence/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex numbers/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex numbers/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex numbers/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex numbers/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Complex/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Convert to bytes/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Convert to bytes/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Convert to bytes/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Convert to bytes/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Converting and multiplying/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Converting and multiplying/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Converting and multiplying/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Converting and multiplying/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count how many times a number occurs/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count how many times a number occurs/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count how many times a number occurs/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count how many times a number occurs/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count words/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count words/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count words/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count words/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counter/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counter/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counter/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counting words/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counting words/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counting words/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Counting words/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Creating a set/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Creating a set/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Creating a set/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Creating a set/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Displaying pairs/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Displaying pairs/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Displaying pairs/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Displaying pairs/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employee/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employee/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employee/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employee/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employees/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employees/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employees/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Employees/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find mistake/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find mistake/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find mistake/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find mistake/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find the seed/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find the seed/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find the seed/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Find the seed/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the non-compiled hierarchy/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the non-compiled hierarchy/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the non-compiled hierarchy/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the non-compiled hierarchy/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (1)/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (1)/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (1)/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (1)/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (2)/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (2)/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (2)/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program (2)/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fix the program/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Generate random numbers/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Generate random numbers/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Generate random numbers/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Generate random numbers/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Getting the fullname/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Getting the fullname/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Getting the fullname/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Getting the fullname/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Harry Potter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Harry Potter/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Harry Potter/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Harry Potter/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Individual taxes/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Individual taxes/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Individual taxes/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Individual taxes/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of characters/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of characters/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of characters/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of characters/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of longs/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of longs/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of longs/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Initializing an array of longs/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Inner boxes/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Inner boxes/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Inner boxes/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Inner boxes/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Movie/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Movie/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Movie/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Movie/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Multiset/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Multiset/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Multiset/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Multiset/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Mutable geometric shapes/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Mutable geometric shapes/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Mutable geometric shapes/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Mutable geometric shapes/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Only true or false/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Only true or false/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Only true or false/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Only true or false/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Output elements/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Output elements/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Output elements/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Output elements/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Pastry packing optimization/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Pastry packing optimization/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Pastry packing optimization/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Pastry packing optimization/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Phone/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Phone/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Phone/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Phone/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Preparing full name/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Preparing full name/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Preparing full name/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Preparing full name/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Project constants and methods/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Project constants and methods/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Project constants and methods/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Project constants and methods/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publication and its subclasses/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publication and its subclasses/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publication and its subclasses/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publication and its subclasses/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publications/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publications/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publications/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Publications/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Return empty string when argument is null/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Return empty string when argument is null/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Return empty string when argument is null/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Return empty string when argument is null/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Safe converting/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Safe converting/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Safe converting/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Safe converting/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Saying animals/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Saying animals/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Saying animals/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Saying animals/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Shapes area/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Shapes area/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Shapes area/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Shapes area/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sherlock Holmes and removing of characters/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sherlock Holmes and removing of characters/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sherlock Holmes and removing of characters/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sherlock Holmes and removing of characters/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Simulating a clock/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Simulating a clock/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Simulating a clock/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Simulating a clock/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Spell checker/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Spell checker/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Spell checker/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Spell checker/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/String to double conversion/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/String to double conversion/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/String to double conversion/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/String to double conversion/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Substitution cipher/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Substitution cipher/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Substitution cipher/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Substitution cipher/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The maximum pairwise product/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The maximum pairwise product/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The maximum pairwise product/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The maximum pairwise product/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The minimum value of an array/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The minimum value of an array/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The minimum value of an array/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The minimum value of an array/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Too many cats/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Too many cats/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Too many cats/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Too many cats/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Users/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Users/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Users/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Users/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1adhawZv7EiKKNhGKpqpPB9VyZ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Problems-Interval_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flashcards.Main" />
+      <module name="Flashcards-task_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flashcards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc621239-5905-4f84-9731-0f19d7dae23b" name="Default Changelist" comment="" />
+      <created>1587071444905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587071444905</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587075617063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587075617063" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587075617062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587075617062" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587075617062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587075617062" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587075617063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587075617063" />
+  </component>
+</project>

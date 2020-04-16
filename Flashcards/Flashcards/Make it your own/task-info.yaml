@@ -7,9 +7,9 @@ files:
     package common
 
 
-    import org.hyperskill.hstest.v6.stage.BaseStageTest
-    import org.hyperskill.hstest.v6.testcase.CheckResult
-    import org.hyperskill.hstest.v6.testcase.TestCase
+    import org.hyperskill.hstest.stage.StageTest
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testcase.TestCase
     import flashcards.Main
 
     class CardsClue(
@@ -33,7 +33,7 @@ files:
                 .joinToString("\n", postfix = "\n")
     }
 
-    abstract class FlashcardsStage3Test : BaseStageTest<CardsClue>(Main::class.java) {
+    abstract class FlashcardsStage3Test : StageTest<CardsClue>(Main::class.java) {
 
         override fun generate() = listOf(
                 CardsClue(2,
@@ -73,7 +73,7 @@ files:
 
 
             if (userLines.size < clue.cardCount * 2) {
-                return CheckResult.FALSE("Your output should contain at least ${clue.cardCount * 2} lines, but contains only ${userLines.size}. " +
+                return CheckResult.wrong("Your output should contain at least ${clue.cardCount * 2} lines, but contains only ${userLines.size}. " +
                         "Check, that you output your lines with println, not print.")
             }
 
@@ -89,25 +89,25 @@ files:
                 val ans = clue.answers[i] // user answer
 
                 if (!quest.contains("\"$card\"")) {
-                    return CheckResult.FALSE("Question \"$quest\" should contain the card \"$card\" in quotes.")
+                    return CheckResult.wrong("Question \"$quest\" should contain the card \"$card\" in quotes.")
                 }
 
                 if (ans == def) {
                     // should be correct
                     if (!feedback.toLowerCase().contains("correct answer")) {
-                        return CheckResult.FALSE("Feedback \"$feedback\" should be positive for card \"$card\" and answer \"$ans\".")
+                        return CheckResult.wrong("Feedback \"$feedback\" should be positive for card \"$card\" and answer \"$ans\".")
                     }
                 } else {
                     // should be wrong
                     if (!feedback.toLowerCase().contains("wrong answer") || !feedback.contains("\"$def\"")) {
-                        return CheckResult.FALSE("Feedback \"$feedback\" should be negative for the card \"$card\" " +
+                        return CheckResult.wrong("Feedback \"$feedback\" should be negative for the card \"$card\" " +
                                 "and contain the right definition \"$def\" in quotes.")
                     }
                 }
 
             }
 
-            return CheckResult.TRUE
+            return CheckResult.correct()
         }
     }
   learner_created: false
@@ -125,12 +125,29 @@ files:
   text: |
     package flashcards;
 
+    import java.util.Scanner;
+
     public class Main {
         public static void main(String[] args) {
-            System.out.println("Hello World!");
+    /*
+            System.out.println("Card:");
+            System.out.println("purchase");
+            System.out.println("Definition:");
+            System.out.println("buy");
+    */
+            Scanner scanner = new Scanner(System.in);
+            String term = scanner.nextLine();
+            String definition = scanner.nextLine();
+            String answer = scanner.nextLine();
+
+            if (definition.equals(answer)) {
+                System.out.println("Your answer is right!");
+            } else {
+                System.out.println("Your answer is wrong...");
+            }
         }
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/44/stages/234/implement
 status: Solved
-record: 3
+record: 2

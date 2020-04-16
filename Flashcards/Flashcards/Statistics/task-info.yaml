@@ -6,8 +6,8 @@ files:
   text: |
     package common
 
-    import org.hyperskill.hstest.v6.testcase.CheckResult
-    import org.hyperskill.hstest.v6.testcase.TestCase
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testcase.TestCase
 
 
     // ---- DialogClue ----
@@ -50,7 +50,7 @@ files:
      * we need to pass all inputs first, and then start checking outputs. */
     fun user(text: String, updateContext: (ctx: Context) -> Unit = {}) = UserLine(text, updateContext)
 
-    fun anyLine(updateContext: CtxUpdate = {}) = OutputLine { _, ctx -> CheckResult.TRUE.also { updateContext(ctx) } }
+    fun anyLine(updateContext: CtxUpdate = {}) = OutputLine { _, ctx -> CheckResult.correct().also { updateContext(ctx) } }
 
     fun containing(
             vararg parts: String,
@@ -75,11 +75,11 @@ files:
         for (part in parts) {
             startIndex = line.indexOf(part, startIndex, ignoreCase)
             if (startIndex == -1) {
-                return@OutputLine CheckResult.FALSE(buildFeedback())
+                return@OutputLine CheckResult.wrong(buildFeedback())
             }
         }
         updateContext(context) // everything is correct, update context
-        CheckResult.TRUE
+        CheckResult.correct();
     }
 
     class DialogClue(private val phrases: List<PhraseLine>) {
@@ -94,7 +94,7 @@ files:
             val lines = output.lines()
                     .filter { it.isNotBlank() }
 
-            fun wrongOutputSizeFeedback() = CheckResult.FALSE("The number of lines in your output is ${lines.size}, " +
+            fun wrongOutputSizeFeedback() = CheckResult.wrong("The number of lines in your output is ${lines.size}, " +
                     "but it should be ${outputPhrases.size}. " +
                     "Check, that you output your lines with println, not print. And there are no extra outputs.")
 
@@ -110,8 +110,8 @@ files:
                             return wrongOutputSizeFeedback()
                         }
                         val result = phraseLine.checker(lineIter.next(), context)
-                        if (result != CheckResult.TRUE) {
-                            return CheckResult.FALSE(result.feedback)
+                        if (!result.isCorrect) {
+                            return CheckResult.wrong(result.feedback)
                         }
                     }
                 }
@@ -121,7 +121,7 @@ files:
                 return wrongOutputSizeFeedback()
             }
 
-            return CheckResult.TRUE
+            return CheckResult.correct();
         }
     }
 
@@ -137,13 +137,13 @@ files:
   text: |
     package common
 
-    import org.hyperskill.hstest.v6.stage.BaseStageTest
-    import org.hyperskill.hstest.v6.testcase.CheckResult
-    import org.hyperskill.hstest.v6.testcase.TestCase
+    import org.hyperskill.hstest.stage.StageTest
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testcase.TestCase
     import flashcards.Main
     import java.io.File
 
-    abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java) {
+    abstract class FlashcardsStage6Test : StageTest<DialogClue>(Main::class.java) {
 
         override fun generate(): List<TestCase<DialogClue>> {
             File("capitals.txt").delete()
@@ -223,9 +223,9 @@ files:
                             return@OutputLine result
                         }
                         if (!File(fileName).exists()) {
-                            return@OutputLine CheckResult.FALSE("The log file $fileName does not exist.")
+                            return@OutputLine CheckResult.wrong("The log file $fileName does not exist.")
                         }
-                        CheckResult.TRUE
+                        CheckResult.correct();
                     }
             ).toPhraseLines()
         }
@@ -260,25 +260,25 @@ files:
                         else -> {
                             hardestCards.forEach { card ->
                                 if (card !in text) {
-                                    return@OutputLine CheckResult.FALSE("Your line `$text`\n" +
+                                    return@OutputLine CheckResult.wrong("Your line `$text`\n" +
                                             "should contain the hardest cards " +
                                             "${hardestCards.joinToString("\", \"", "\"", "\"")} with $maxMistakes mistakes.")
                                 }
                             }
                             val numberOfHardestCards = text.count { it == '"' }
                             if (numberOfHardestCards != hardestCards.size * 2) {
-                                return@OutputLine CheckResult.FALSE("Your line `$text`\n" +
+                                return@OutputLine CheckResult.wrong("Your line `$text`\n" +
                                         "contains more hardest cards, than expected. Expected: $hardestCards.")
                             }
                             if (maxMistakes.toString() !in text) {
                                 if (numberOfHardestCards != hardestCards.size) {
-                                    return@OutputLine CheckResult.FALSE("Your line `$text`\n" +
+                                    return@OutputLine CheckResult.wrong("Your line `$text`\n" +
                                             "should contain $maxMistakes mistakes for your hardest cards.")
                                 }
                             }
                         }
                     }
-                    CheckResult.TRUE
+                    CheckResult.correct();
                 }
         )
 
@@ -402,14 +402,14 @@ files:
                         OutputLine { text, ctx ->
                             val askedCard = text.dropWhile { it != '"' }.dropLastWhile { it != '"' }.trim('"')
                             if (askedCard.isEmpty()) {
-                                return@OutputLine CheckResult.FALSE("Not found card in quotes. " +
+                                return@OutputLine CheckResult.wrong("Not found card in quotes. " +
                                         "This line should ask the definition of a random card.")
                             }
                             if (askedCard !in ctx.cardToDef) {
-                                return@OutputLine CheckResult.FALSE("You asked the definition of the non existing card: `$askedCard`.")
+                                return@OutputLine CheckResult.wrong("You asked the definition of the non existing card: `$askedCard`.")
                             }
                             ctx.rawData["lastAskedCard"] = askedCard
-                            CheckResult.TRUE
+                            CheckResult.correct();
                         },
                         // unfortunately we can't access the Context in user action, see documentation of user()
                         user(ansDef),
@@ -434,7 +434,7 @@ files:
                                 } else {
                                     // should not contain definition hint!!
                                     if (text.contains("you've just written the definition of")) {
-                                        CheckResult.FALSE("Your line\n`$text`\nshould NOT contain " +
+                                        CheckResult.wrong("Your line\n`$text`\nshould NOT contain " +
                                                 "`you've just written the definition of`.\n$hint")
                                     } else {
                                         containing("Wrong answer", "The correct one is \"$rightAns\"", hint = hint).checker(text, ctx)
@@ -469,9 +469,149 @@ files:
   text: |
     package flashcards;
 
+    import java.io.*;
+    import java.util.Map;
+    import java.util.Random;
+    import java.util.Scanner;
+    import java.util.TreeMap;
+
     public class Main {
-        public static void main(String[] args) {
-            System.out.println("Hello World!");
+
+        private static Scanner scanner = new Scanner(System.in);
+        private static Map<String, String> map = new TreeMap<>();
+        private static String term = "";
+        private static String definition = "";
+        private static String filePath = "";
+
+
+        public static void main(String[] args) throws InterruptedException, IOException {
+            String answer = "";
+
+            while (!"exit".equals(answer)) {
+                System.out.println("Input the action (add, remove, import, export, ask, exit):");
+                answer = scanner.next();
+                switch (answer) {
+                    case "add":
+                        add();
+                        break;
+                    case "remove":
+                        remove();
+                        break;
+                    case "import":
+                        importFile();
+                        break;
+                    case "export":
+                        export();
+                        break;
+                    case "ask":
+                        ask();
+                        break;
+                    case "exit":
+                        System.out.println("Bye bye!");
+                        return;
+                }
+            }
+        }
+
+        private static void add() {
+            System.out.printf("The card:%n");
+            term = scanner.next();
+            while (map.containsKey(term)) {
+                System.out.printf("The card \"%s\" already exists.\n", term);
+                System.out.println();
+                return;
+            }
+            System.out.printf("The definition of the card:%n");
+            definition = scanner.next();
+            while (map.containsValue(definition)) {
+                System.out.printf("The definition \"%s\" already exists.\n", definition);
+                System.out.println();
+                return;
+            }
+            map.put(term, definition);
+            System.out.printf("The pair(\"%s\":\"%s\") has been added.%n", term, definition);
+            System.out.println();
+        }
+
+        private static void remove() {
+            System.out.printf("The card:%n");
+            term = scanner.next();
+            if (map.containsKey(term)) {
+                map.remove(term);
+                System.out.println("The card has been removed");
+            } else {
+                System.out.printf("Can't remove \"%s\": there is no such card.%n", term);
+            }
+            System.out.println();
+        }
+
+        private static void importFile() throws FileNotFoundException {
+            System.out.printf("File name:%n");
+            filePath = scanner.next();
+            File file = new File(filePath);
+            if (!file.exists()) {
+                System.out.printf("File not found.%n");
+            } else {
+                Scanner scanFile = new Scanner(new File(filePath));
+                int counter = 0;
+                while (scanFile.hasNext()) {
+                    term = scanFile.next();
+                    counter++;
+                    definition = scanFile.next();
+                    map.put(term, definition);
+                }
+                System.out.println(counter + " cards have been loaded.");
+            }
+            System.out.println();
+        }
+
+        private static void export() throws IOException {
+            System.out.printf("File name:%n");
+            filePath = scanner.next();
+            FileWriter writer = new FileWriter(filePath);
+            PrintWriter printWriter = new PrintWriter(writer);
+            map.forEach((key, value) -> {
+                printWriter.println(key);
+                printWriter.println(value);
+            });
+            System.out.printf("%d cards have been saved.%n", map.size());
+            System.out.println();
+            printWriter.close();
+        }
+
+        private static void ask() {
+            System.out.printf("How many times to ask?%n");
+            int numberOfAsks = Integer.parseInt(scanner.next());
+
+            Random generator = new Random();
+            Object[] values = map.values().toArray();
+            String randomValue = (String) values[generator.nextInt(values.length)];
+
+            String key = (String) getKeyFromValue(map, randomValue);
+            String value = map.get(key);
+
+            for (int i = 0; i < numberOfAsks; i++) {
+                System.out.printf("Print the definition of \"%s\":%n", key);
+                String input = scanner.next();
+
+                if (value.equals(input)) {
+                    System.out.printf("Correct answer.%n");
+                } else if (map.containsValue(input)) {
+                    System.out.printf("Wrong answer. The correct one is \"%s\", you've just written the definition of \"%s\".%n", value, getKeyFromValue(map, input));
+                } else {
+                    System.out.printf("Wrong answer. The correct one is \"%s\".%n", value);
+                }
+            }
+        }
+
+
+        public static Object getKeyFromValue(Map hm, Object value) {
+            for (Object o : hm.keySet()) {
+                if (hm.get(o).equals(value)) {
+                    return o;
+                }
+            }
+            return null;
         }
     }
   learner_created: false

@@ -6,8 +6,8 @@ files:
   text: |
     package common
 
-    import org.hyperskill.hstest.v6.testcase.CheckResult
-    import org.hyperskill.hstest.v6.testcase.TestCase
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testcase.TestCase
 
 
     // ---- DialogClue ----
@@ -50,7 +50,7 @@ files:
      * we need to pass all inputs first, and then start checking outputs. */
     fun user(text: String, updateContext: (ctx: Context) -> Unit = {}) = UserLine(text, updateContext)
 
-    fun anyLine() = OutputLine { _, _ -> CheckResult.TRUE }
+    fun anyLine() = OutputLine { _, _ -> CheckResult.correct(); }
 
     fun containing(
             vararg parts: String,
@@ -75,11 +75,11 @@ files:
         for (part in parts) {
             startIndex = line.indexOf(part, startIndex, ignoreCase)
             if (startIndex == -1) {
-                return@OutputLine CheckResult.FALSE(buildFeedback())
+                return@OutputLine CheckResult.wrong(buildFeedback())
             }
         }
         updateContext(context) // everything is correct, update context
-        CheckResult.TRUE
+        CheckResult.correct();
     }
 
     class DialogClue(private val phrases: List<PhraseLine>) {
@@ -94,7 +94,8 @@ files:
             val lines = output.lines()
                     .filter { it.isNotBlank() }
 
-            fun wrongOutputSizeFeedback() = CheckResult.FALSE("The number of lines in your output is ${lines.size}, " +
+            fun wrongOutputSizeFeedback(): CheckResult
+                    = CheckResult.wrong("The number of lines in your output is ${lines.size}, " +
                     "but it should be ${outputPhrases.size}. " +
                     "Check, that you output your lines with println, not print. And there are no extra outputs.")
 
@@ -110,8 +111,8 @@ files:
                             return wrongOutputSizeFeedback()
                         }
                         val result = phraseLine.checker(lineIter.next(), context)
-                        if (result != CheckResult.TRUE) {
-                            return CheckResult.FALSE(result.feedback)
+                        if (!result.isCorrect) {
+                            return CheckResult.wrong(result.feedback)
                         }
                     }
                 }
@@ -121,7 +122,7 @@ files:
                 return wrongOutputSizeFeedback()
             }
 
-            return CheckResult.TRUE
+            return CheckResult.correct()
         }
     }
 
@@ -130,6 +131,100 @@ files:
         return TestCase<DialogClue>()
                 .setInput(dialogClue.generateInput())
                 .setAttach(dialogClue)
+    }
+  learner_created: false
+- name: test/common/FlashcardsStage4Test.kt
+  visible: false
+  text: |
+    package common
+
+    import flashcards.Main
+    import org.hyperskill.hstest.stage.StageTest
+    import org.hyperskill.hstest.testcase.CheckResult
+
+    abstract class FlashcardsStage4Test : StageTest<DialogClue>(Main::class.java) {
+
+        override fun generate() = listOf(
+                dialogTest(
+                        anyLine(), user("2"),
+                        anyLine(), user("black"),
+                        anyLine(), user("white"),
+                        anyLine(), user("black"),
+                        containing("The card \"black\" already exists"),
+                        user("red"),
+                        anyLine(), user("white"),
+                        containing("The definition \"white\" already exists"),
+                        user("green"),
+                        // asking
+                        askCorrect("black", "white"),
+                        askCorrect("red", "green")
+                ),
+                dialogTest(
+                        inputNum(2),
+                        inputCard("a brother of one's parent", "uncle"),
+                        inputCard("a part of the body where the foot and the leg meet", "ankle"),
+                        // asking
+                        askWrong("a brother of one's parent", userAns = "ankle", rightAns = "uncle",
+                                isDefFor = "a part of the body where the foot and the leg meet"),
+
+                        askWrong("a part of the body where the foot and the leg meet", "???", "ankle")
+                ),
+                dialogTest(
+                        inputNum(4),
+                        inputCard("c1", "d1"),
+                        inputCard("c2", "d2"),
+                        inputCard("c3", "d3"),
+                        // repeating three times
+                        anyLine(),
+                        user("c3"), containing("The card \"c3\" already exists"),
+                        user("c2"), containing("The card \"c2\" already exists"),
+                        user("c1"), containing("The card \"c1\" already exists"),
+                        user("c4"),
+                        anyLine(),
+                        user("d2"), containing("The definition \"d2\" already exists"),
+                        user("d3"), containing("The definition \"d3\" already exists"),
+                        user("d1"), containing("The definition \"d1\" already exists"),
+                        user("d4"),
+
+                        askCorrect("c1", "d1"),
+                        askWrong("c2", userAns = "d1", rightAns = "d2", isDefFor = "c1"),
+                        askWrong("c3", "d3 ddd3", "d3"),
+                        askWrong("c4", "???", "d4")
+                )
+        )
+
+        /** Asks with a correct answer. */
+        private fun askCorrect(quest: String, userAns: String) = compositePhrase {
+            listOf(containing("\"$quest\"", hint = "This line should ask the definition of `$quest`."),
+                    user(userAns), containing("Correct answer"))
+        }
+
+        /** Asks with a wrong answer. */
+        private fun askWrong(quest: String, userAns: String, rightAns: String, isDefFor: String? = null) = compositePhrase {
+            val result = mutableListOf(
+                    containing("\"$quest\"", hint = "This line should ask the definition of `$quest`."),
+                    user(userAns))
+            if (isDefFor == null) {
+                result += containing("Wrong answer", "The correct one is \"$rightAns\"")
+            } else {
+                result += containing("Wrong answer", "The correct one is \"$rightAns\"",
+                        "you've just written the definition of \"$isDefFor\"")
+            }
+            result
+        }
+
+        private fun inputNum(number: Int) = compositePhrase {
+            listOf(anyLine(), user(number.toString()))
+        }
+
+        private fun inputCard(card: String, def: String) = compositePhrase {
+            listOf(anyLine(), user(card), anyLine(), user(def))
+        }
+
+
+        override fun check(reply: String, clue: DialogClue): CheckResult {
+            return clue.checkOutput(reply)
+        }
     }
   learner_created: false
 - name: test/FlashcardsTest.java
@@ -146,12 +241,40 @@ files:
   text: |
     package flashcards;
 
+    import java.util.Locale;
+    import java.util.Scanner;
+
+    import static java.lang.Thread.sleep;
+
     public class Main {
-        public static void main(String[] args) {
-            System.out.println("Hello World!");
+        public static void main(String[] args) throws InterruptedException {
+
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Input the number of cards: ");
+            int numberOfCards = Integer.parseInt(scanner.nextLine());
+            String[] terms = new String[numberOfCards];
+            String[] definitions = new String[numberOfCards];
+
+            for (int i = 0; i < numberOfCards; i++) {
+                System.out.printf("The card #%s:%n", (i + 1));
+                terms[i] = scanner.nextLine();
+                System.out.printf("The definition of the card #%s:%n", (i + 1));
+                definitions[i] = scanner.nextLine();
+            }
+
+            for (int i = 0; i < definitions.length; i++) {
+                System.out.printf("Print the definition of \"%s\":%n", terms[i]);
+
+                if (scanner.nextLine().equalsIgnoreCase(definitions[i])) {
+                    System.out.printf("Correct answer.%n");
+                } else {
+                    System.out.printf("Wrong answer. The correct one is \"%s\".%n", definitions[i]);
+                }
+            }
+
         }
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/44/stages/235/implement
-status: Solved
-record: 4
+status: Unchecked
+record: 5
