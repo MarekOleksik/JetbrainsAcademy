@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.634s</div>
+<div class="counter">0.567s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,15 +76,11 @@
 <a name="start"></a>
 <h3 class="failures">start</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Exception in test #5
+<pre>java.lang.AssertionError: Wrong answer in test #6
 
-Probably your program run out of input (Scanner tried to read more than expected).
-
-java.util.NoSuchElementException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
-	at java.base/java.util.Scanner.next(Scanner.java:1478)
-	at flashcards.Main.importFile(Main.java:98)
-	at flashcards.Main.main(Main.java:32)
+Your line
+`0 cards have been loaded.`
+should contain `1 cards have been loaded` (ignoring case).
 
 Please find below the output of your program during this failed test.
 Note that the '&gt;' character indicates the beginning of the input line.
@@ -92,29 +88,14 @@ Note that the '&gt;' character indicates the beginning of the input line.
 ---
 
 Input the action (add, remove, import, export, ask, exit):
-&gt; add
-The card:
-&gt; Great Britain
-The definition of the card:
-&gt; London
-The pair(&quot;Great Britain&quot;:&quot;London&quot;) has been added.
-
-Input the action (add, remove, import, export, ask, exit):
-&gt; remove
-The card:
-&gt; Wakanda
-Can't remove &quot;Wakanda&quot;: there is no such card.
-
-Input the action (add, remove, import, export, ask, exit):
-&gt; export
-File name:
-&gt; capitals.txt
-1 cards have been saved.
-
-Input the action (add, remove, import, export, ask, exit):
 &gt; import
 File name:
-&gt; capitals.txt
+&gt; capitalsNew.txt
+0 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; exit
+Bye bye!
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -180,7 +161,7 @@ File name:
 </thead>
 <tr>
 <td class="failures">start</td>
-<td class="failures">0.634s</td>
+<td class="failures">0.567s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -247,24 +228,24 @@ Input the action (add, remove, import, export, ask, exit):
 &gt; ask
 How many times to ask?
 &gt; 6
-Print the definition of &quot;a brother of one's parent&quot;:
+Print the definition of &quot;a part of the body where the foot and the leg meet&quot;:
 &gt; ankle
-Wrong answer. The correct one is &quot;uncle&quot;, you've just written the definition of &quot;a part of the body where the foot and the leg meet&quot;.
-Print the definition of &quot;a brother of one's parent&quot;:
-&gt; ??
-Wrong answer. The correct one is &quot;uncle&quot;.
-Print the definition of &quot;a brother of one's parent&quot;:
-&gt; uncle
 Correct answer.
-Print the definition of &quot;a brother of one's parent&quot;:
+Print the definition of &quot;a part of the body where the foot and the leg meet&quot;:
+&gt; ??
+Wrong answer. The correct one is &quot;ankle&quot;.
+Print the definition of &quot;a part of the body where the foot and the leg meet&quot;:
+&gt; uncle
+Wrong answer. The correct one is &quot;ankle&quot;, you've just written the definition of &quot;a brother of one's parent&quot;.
+Print the definition of &quot;a part of the body where the foot and the leg meet&quot;:
 &gt; ankle
-Wrong answer. The correct one is &quot;uncle&quot;, you've just written the definition of &quot;a part of the body where the foot and the leg meet&quot;.
-Print the definition of &quot;a brother of one's parent&quot;:
-&gt; ??
-Wrong answer. The correct one is &quot;uncle&quot;.
-Print the definition of &quot;a brother of one's parent&quot;:
-&gt; uncle
 Correct answer.
+Print the definition of &quot;a part of the body where the foot and the leg meet&quot;:
+&gt; ??
+Wrong answer. The correct one is &quot;ankle&quot;.
+Print the definition of &quot;a part of the body where the foot and the leg meet&quot;:
+&gt; uncle
+Wrong answer. The correct one is &quot;ankle&quot;, you've just written the definition of &quot;a brother of one's parent&quot;.
 Input the action (add, remove, import, export, ask, exit):
 &gt; exit
 Bye bye!
@@ -322,6 +303,35 @@ Input the action (add, remove, import, export, ask, exit):
 &gt; import
 File name:
 &gt; capitals.txt
+1 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; ask
+How many times to ask?
+&gt; 1
+Print the definition of &quot;Great Britain&quot;:
+&gt; London
+Correct answer.
+Input the action (add, remove, import, export, ask, exit):
+&gt; export
+File name:
+&gt; capitalsNew.txt
+1 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; exit
+Bye bye!
+?[1;31m
+Start test 6?[0m
+Input the action (add, remove, import, export, ask, exit):
+&gt; import
+File name:
+&gt; capitalsNew.txt
+0 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; exit
+Bye bye!
 </pre>
 </span>
 </div>
@@ -333,7 +343,7 @@ File name:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.3.1</a> at 17 kwi 2020, 00:01:25</p>
+<a href="http://www.gradle.org">Gradle 5.3.1</a> at 17 kwi 2020, 14:12:46</p>
 </div>
 </div>
 </body>

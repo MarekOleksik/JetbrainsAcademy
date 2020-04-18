@@ -61,24 +61,24 @@ The pair("2a part of the body where the foot and the leg meet":"ankle
 > ask
 How many times to ask?
 > 6
-Print the definition of "a brother of one's parent":
+Print the definition of "2a part of the body where the foot and the leg meet":
 > ankle
-"Wrong answer. The correct one is "uncle*", you've just written the definition of "2a part of the body where the foot and the leg meet".
-Print the definition of "a brother of one's parent":
-> ??
-"Wrong answer. The correct one is "uncle".
-Print the definition of "a brother of one's parent":
-> uncle
 Correct answer.
-Print the definition of "a brother of one's parent":
+Print the definition of "2a part of the body where the foot and the leg meet":
+> ??
+"Wrong answer. The correct one is "ankle".
+Print the definition of "2a part of the body where the foot and the leg meet":
+> uncle
+"Wrong answer. The correct one is "ankle*", you've just written the definition of "a brother of one's parent".
+Print the definition of "2a part of the body where the foot and the leg meet":
 > ankle
-"Wrong answer. The correct one is "uncle*", you've just written the definition of "2a part of the body where the foot and the leg meet".
-Print the definition of "a brother of one's parent":
-> ??
-"Wrong answer. The correct one is "uncle".
-Print the definition of "a brother of one's parent":
-> uncle
 Correct answer.
+Print the definition of "2a part of the body where the foot and the leg meet":
+> ??
+"Wrong answer. The correct one is "ankle".
+Print the definition of "2a part of the body where the foot and the leg meet":
+> uncle
+"Wrong answer. The correct one is "ankle*", you've just written the definition of "a brother of one's parent".
 :Input the action (add, remove, import, export, ask, exit):
 > exit
 Bye bye!
@@ -143,3 +143,34 @@ File name:
 
 File name:
 > capitals.txt
+1 cards have been loaded.
+
+:Input the action (add, remove, import, export, ask, exit):
+> ask
+How many times to ask?
+> 1
+Print the definition of "Great Britain":
+	> London
+Correct answer.
+:Input the action (add, remove, import, export, ask, exit):
+	> export
+
+File name:
+> capitalsNew.txt
+1 cards have been saved.
+
+:Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!
+[1;31m
+Start test 6[0m
+:Input the action (add, remove, import, export, ask, exit):
+	> import
+
+File name:
+> capitalsNew.txt
+0 cards have been loaded.
+
+:Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!

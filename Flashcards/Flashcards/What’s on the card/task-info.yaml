@@ -17,9 +17,9 @@ files:
 
     import flashcards.Main
 
-    import org.hyperskill.hstest.stage.StageTest
-    import org.hyperskill.hstest.testcase.CheckResult
-    import org.hyperskill.hstest.testcase.TestCase
+    import org.hyperskill.hstest.v6.stage.BaseStageTest
+    import org.hyperskill.hstest.v6.testcase.CheckResult
+    import org.hyperskill.hstest.v6.testcase.TestCase
     import common.FlashcardsStage2Answer.RIGHT
     import common.FlashcardsStage2Answer.WRONG
 
@@ -34,7 +34,7 @@ files:
         WRONG("wrong");
     }
 
-    abstract class FlashcardsStage2Test : StageTest<FlashcardsStage2Clue>(Main::class.java) {
+    abstract class FlashcardsStage2Test : BaseStageTest<FlashcardsStage2Clue>(Main::class.java) {
 
         override fun generate(): List<TestCase<FlashcardsStage2Clue>> {
             return listOf(
@@ -110,13 +110,10 @@ files:
 
     public class Main {
         public static void main(String[] args) {
-            System.out.println("Card:");
-            System.out.println("purchase");
-            System.out.println("Definition:");
-            System.out.println("buy");
+            System.out.println("Hello World!");
         }
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/44/stages/233/implement
-status: Unchecked
-record: 4
+status: Solved
+record: 2

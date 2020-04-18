@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-04-16T22:01:25" hostname="komputer" time="0.634">
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-04-17T12:12:45" hostname="komputer" time="0.567">
   <properties/>
-  <testcase name="start" classname="FlashcardsTest" time="0.634">
-    <failure message="java.lang.AssertionError: Exception in test #5&#10;&#10;Probably your program run out of input (Scanner tried to read more than expected).&#10;&#10;java.util.NoSuchElementException&#13;&#10;&#9;at java.base/java.util.Scanner.throwFor(Scanner.java:937)&#13;&#10;&#9;at java.base/java.util.Scanner.next(Scanner.java:1478)&#13;&#10;&#9;at flashcards.Main.importFile(Main.java:98)&#13;&#10;&#9;at flashcards.Main.main(Main.java:32)&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; add&#10;The card:&#10;&gt; Great Britain&#10;The definition of the card:&#10;&gt; London&#10;The pair(&quot;Great Britain&quot;:&quot;London&quot;) has been added.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; remove&#10;The card:&#10;&gt; Wakanda&#10;Can't remove &quot;Wakanda&quot;: there is no such card.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; export&#10;File name:&#10;&gt; capitals.txt&#10;1 cards have been saved.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; import&#10;File name:&#10;&gt; capitals.txt" type="java.lang.AssertionError">java.lang.AssertionError: Exception in test #5
+  <testcase name="start" classname="FlashcardsTest" time="0.567">
+    <failure message="java.lang.AssertionError: Wrong answer in test #6&#10;&#10;Your line&#10;`0 cards have been loaded.`&#10;should contain `1 cards have been loaded` (ignoring case).&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; import&#10;File name:&#10;&gt; capitalsNew.txt&#10;0 cards have been loaded.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&gt; exit&#10;Bye bye!" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #6
 
-Probably your program run out of input (Scanner tried to read more than expected).
-
-java.util.NoSuchElementException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
-	at java.base/java.util.Scanner.next(Scanner.java:1478)
-	at flashcards.Main.importFile(Main.java:98)
-	at flashcards.Main.main(Main.java:32)
+Your line
+`0 cards have been loaded.`
+should contain `1 cards have been loaded` (ignoring case).
 
 Please find below the output of your program during this failed test.
 Note that the '&gt;' character indicates the beginning of the input line.
@@ -18,29 +14,14 @@ Note that the '&gt;' character indicates the beginning of the input line.
 ---
 
 Input the action (add, remove, import, export, ask, exit):
-&gt; add
-The card:
-&gt; Great Britain
-The definition of the card:
-&gt; London
-The pair(&quot;Great Britain&quot;:&quot;London&quot;) has been added.
-
-Input the action (add, remove, import, export, ask, exit):
-&gt; remove
-The card:
-&gt; Wakanda
-Can't remove &quot;Wakanda&quot;: there is no such card.
-
-Input the action (add, remove, import, export, ask, exit):
-&gt; export
-File name:
-&gt; capitals.txt
-1 cards have been saved.
-
-Input the action (add, remove, import, export, ask, exit):
 &gt; import
 File name:
-&gt; capitals.txt
+&gt; capitalsNew.txt
+0 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit):
+&gt; exit
+Bye bye!
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -151,24 +132,24 @@ Input the action (add, remove, import, export, ask, exit):
 > ask
 How many times to ask?
 > 6
-Print the definition of "a brother of one's parent":
+Print the definition of "a part of the body where the foot and the leg meet":
 > ankle
-Wrong answer. The correct one is "uncle", you've just written the definition of "a part of the body where the foot and the leg meet".
-Print the definition of "a brother of one's parent":
-> ??
-Wrong answer. The correct one is "uncle".
-Print the definition of "a brother of one's parent":
-> uncle
 Correct answer.
-Print the definition of "a brother of one's parent":
+Print the definition of "a part of the body where the foot and the leg meet":
+> ??
+Wrong answer. The correct one is "ankle".
+Print the definition of "a part of the body where the foot and the leg meet":
+> uncle
+Wrong answer. The correct one is "ankle", you've just written the definition of "a brother of one's parent".
+Print the definition of "a part of the body where the foot and the leg meet":
 > ankle
-Wrong answer. The correct one is "uncle", you've just written the definition of "a part of the body where the foot and the leg meet".
-Print the definition of "a brother of one's parent":
-> ??
-Wrong answer. The correct one is "uncle".
-Print the definition of "a brother of one's parent":
-> uncle
 Correct answer.
+Print the definition of "a part of the body where the foot and the leg meet":
+> ??
+Wrong answer. The correct one is "ankle".
+Print the definition of "a part of the body where the foot and the leg meet":
+> uncle
+Wrong answer. The correct one is "ankle", you've just written the definition of "a brother of one's parent".
 Input the action (add, remove, import, export, ask, exit):
 > exit
 Bye bye!
@@ -226,6 +207,35 @@ Input the action (add, remove, import, export, ask, exit):
 > import
 File name:
 > capitals.txt
+1 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit):
+> ask
+How many times to ask?
+> 1
+Print the definition of "Great Britain":
+> London
+Correct answer.
+Input the action (add, remove, import, export, ask, exit):
+> export
+File name:
+> capitalsNew.txt
+1 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!
+?[1;31m
+Start test 6?[0m
+Input the action (add, remove, import, export, ask, exit):
+> import
+File name:
+> capitalsNew.txt
+0 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit):
+> exit
+Bye bye!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
