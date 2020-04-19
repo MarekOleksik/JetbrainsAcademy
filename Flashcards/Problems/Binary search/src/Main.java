@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 /**
  * @param nums ordered sequence of integers
  * @param key an element for searching

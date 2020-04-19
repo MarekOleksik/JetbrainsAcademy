@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 class Book {
 
     private String title;
@@ -24,7 +25,7 @@ class Book {
         return authors;
     }
 
-    public void setAuthors(String[] authors) {
-        this.authors = authors;
+    public void setAuthors(String[] authorsCopy) {
+        this.authors = authorsCopy;
     }
 }

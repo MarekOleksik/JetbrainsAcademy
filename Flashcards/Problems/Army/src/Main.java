@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 public static void createArmy(){
     Unit unit1 = new Unit("Unit1");
     Unit unit2 = new Unit("Unit2");

@@ -22,7 +22,7 @@ class AccountServiceImpl implements AccountService {
     long counter = 0;
 
     public AccountServiceImpl(Account[] copyOfAccounts) {
-        accounts = copyOfAccounts;
+        accounts = copyOfAccounts.clone();
     }
 
     @Override

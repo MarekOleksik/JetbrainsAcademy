@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 import java.util.*;
 
 class Main {
@@ -19,16 +20,20 @@ class Main {
             map.put(character, count - 1);
         }
 
-        int counter = 0;
         for (Character key : map.keySet()) {
             int count = map.get(key);
             if (count < 0) {
                 count *= -1;
                 map.put(key, count);
             }
+        }
+
+        int counter = 0;
+        for (Character key : map.keySet()) {
             counter = map.get(key) + counter;
         }
 
         System.out.println(counter);
+
     }
 }

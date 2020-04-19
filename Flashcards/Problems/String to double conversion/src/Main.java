@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 /**
  * It returns a double value or 0 if an exception occurred
  */

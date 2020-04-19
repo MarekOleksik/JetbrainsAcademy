@@ -2,155 +2,239 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Flashcards-task" target="11" />
       <module name="Flashcards-task_main" target="11" />
       <module name="Flashcards-task_test" target="11" />
       <module name="JetbrainsAcademy-Flashcards-task_test" target="11" />
+      <module name="Problems-Account" target="11" />
+      <module name="Problems-Account_and_its_owner" target="11" />
       <module name="Problems-Account_and_its_owner_main" target="11" />
       <module name="Problems-Account_and_its_owner_test" target="11" />
       <module name="Problems-Account_main" target="11" />
+      <module name="Problems-Account_Service" target="11" />
       <module name="Problems-Account_Service_main" target="11" />
       <module name="Problems-Account_Service_test" target="11" />
       <module name="Problems-Account_test" target="11" />
+      <module name="Problems-Application_as_a_class" target="11" />
       <module name="Problems-Application_as_a_class_main" target="11" />
       <module name="Problems-Application_as_a_class_test" target="11" />
+      <module name="Problems-Are_siblings" target="11" />
       <module name="Problems-Are_siblings_main" target="11" />
       <module name="Problems-Are_siblings_test" target="11" />
+      <module name="Problems-Army" target="11" />
       <module name="Problems-Army_main" target="11" />
       <module name="Problems-Army_test" target="11" />
+      <module name="Problems-Avoid_division_by_zero" target="11" />
       <module name="Problems-Avoid_division_by_zero_main" target="11" />
       <module name="Problems-Avoid_division_by_zero_test" target="11" />
+      <module name="Problems-Avoid_NPE" target="11" />
       <module name="Problems-Avoid_NPE_main" target="11" />
       <module name="Problems-Avoid_NPE_test" target="11" />
+      <module name="Problems-Binary_search" target="11" />
       <module name="Problems-Binary_search_main" target="11" />
       <module name="Problems-Binary_search_test" target="11" />
+      <module name="Problems-Blacklist" target="11" />
       <module name="Problems-Blacklist_main" target="11" />
       <module name="Problems-Blacklist_test" target="11" />
+      <module name="Problems-Book" target="11" />
       <module name="Problems-Book_main" target="11" />
       <module name="Problems-Book_test" target="11" />
+      <module name="Problems-Books" target="11" />
       <module name="Problems-Books_main" target="11" />
       <module name="Problems-Books_test" target="11" />
+      <module name="Problems-Boxes_are_not_just_objects!" target="11" />
       <module name="Problems-Boxes_are_not_just_objects!_main" target="11" />
       <module name="Problems-Boxes_are_not_just_objects!_test" target="11" />
+      <module name="Problems-Catching_some_exceptions" target="11" />
       <module name="Problems-Catching_some_exceptions_main" target="11" />
       <module name="Problems-Catching_some_exceptions_test" target="11" />
+      <module name="Problems-Check_the_value" target="11" />
       <module name="Problems-Check_the_value_main" target="11" />
       <module name="Problems-Check_the_value_test" target="11" />
+      <module name="Problems-Classes_for_Hospital" target="11" />
       <module name="Problems-Classes_for_Hospital_main" target="11" />
       <module name="Problems-Classes_for_Hospital_test" target="11" />
+      <module name="Problems-Compact_strings_with_AsciiCharSequence" target="11" />
       <module name="Problems-Compact_strings_with_AsciiCharSequence_main" target="11" />
       <module name="Problems-Compact_strings_with_AsciiCharSequence_test" target="11" />
+      <module name="Problems-Complex" target="11" />
       <module name="Problems-Complex_main" target="11" />
+      <module name="Problems-Complex_numbers" target="11" />
       <module name="Problems-Complex_numbers_main" target="11" />
       <module name="Problems-Complex_numbers_test" target="11" />
       <module name="Problems-Complex_test" target="11" />
+      <module name="Problems-Concat_positive_numbers" target="11" />
       <module name="Problems-Concat_positive_numbers_main" target="11" />
       <module name="Problems-Concat_positive_numbers_test" target="11" />
+      <module name="Problems-Convert_to_bytes" target="11" />
       <module name="Problems-Convert_to_bytes_main" target="11" />
       <module name="Problems-Convert_to_bytes_test" target="11" />
+      <module name="Problems-Converting_and_multiplying" target="11" />
       <module name="Problems-Converting_and_multiplying_main" target="11" />
       <module name="Problems-Converting_and_multiplying_test" target="11" />
+      <module name="Problems-Count_how_many_times_a_number_occurs" target="11" />
       <module name="Problems-Count_how_many_times_a_number_occurs_main" target="11" />
       <module name="Problems-Count_how_many_times_a_number_occurs_test" target="11" />
+      <module name="Problems-Count_words" target="11" />
       <module name="Problems-Count_words_main" target="11" />
       <module name="Problems-Count_words_test" target="11" />
+      <module name="Problems-Counter" target="11" />
       <module name="Problems-Counter_main" target="11" />
       <module name="Problems-Counter_test" target="11" />
+      <module name="Problems-Counting_words" target="11" />
       <module name="Problems-Counting_words_main" target="11" />
       <module name="Problems-Counting_words_test" target="11" />
+      <module name="Problems-Creating_a_set" target="11" />
       <module name="Problems-Creating_a_set_main" target="11" />
       <module name="Problems-Creating_a_set_test" target="11" />
+      <module name="Problems-Creating_list" target="11" />
+      <module name="Problems-Creating_list_main" target="11" />
+      <module name="Problems-Creating_list_test" target="11" />
+      <module name="Problems-Displaying_pairs" target="11" />
       <module name="Problems-Displaying_pairs_main" target="11" />
       <module name="Problems-Displaying_pairs_test" target="11" />
+      <module name="Problems-Does_an_array_contain_N" target="11" />
       <module name="Problems-Does_an_array_contain_N_main" target="11" />
       <module name="Problems-Does_an_array_contain_N_test" target="11" />
+      <module name="Problems-Employee" target="11" />
       <module name="Problems-Employee_main" target="11" />
       <module name="Problems-Employee_test" target="11" />
+      <module name="Problems-Employees" target="11" />
       <module name="Problems-Employees_main" target="11" />
       <module name="Problems-Employees_test" target="11" />
+      <module name="Problems-Find_mistake" target="11" />
       <module name="Problems-Find_mistake_main" target="11" />
       <module name="Problems-Find_mistake_test" target="11" />
+      <module name="Problems-Find_the_nearest_number" target="11" />
+      <module name="Problems-Find_the_nearest_number_main" target="11" />
+      <module name="Problems-Find_the_nearest_number_test" target="11" />
+      <module name="Problems-Find_the_seed" target="11" />
       <module name="Problems-Find_the_seed_main" target="11" />
       <module name="Problems-Find_the_seed_test" target="11" />
+      <module name="Problems-Fix_the_non-compiled_hierarchy" target="11" />
       <module name="Problems-Fix_the_non-compiled_hierarchy_main" target="11" />
       <module name="Problems-Fix_the_non-compiled_hierarchy_test" target="11" />
+      <module name="Problems-Fix_the_program" target="11" />
+      <module name="Problems-Fix_the_program__1_" target="11" />
       <module name="Problems-Fix_the_program__1__main" target="11" />
       <module name="Problems-Fix_the_program__1__test" target="11" />
+      <module name="Problems-Fix_the_program__2_" target="11" />
       <module name="Problems-Fix_the_program__2__main" target="11" />
       <module name="Problems-Fix_the_program__2__test" target="11" />
       <module name="Problems-Fix_the_program_main" target="11" />
       <module name="Problems-Fix_the_program_test" target="11" />
+      <module name="Problems-Generate_random_numbers" target="11" />
       <module name="Problems-Generate_random_numbers_main" target="11" />
       <module name="Problems-Generate_random_numbers_test" target="11" />
+      <module name="Problems-Getting_the_fullname" target="11" />
       <module name="Problems-Getting_the_fullname_main" target="11" />
       <module name="Problems-Getting_the_fullname_test" target="11" />
+      <module name="Problems-Harry_Potter" target="11" />
       <module name="Problems-Harry_Potter_main" target="11" />
       <module name="Problems-Harry_Potter_test" target="11" />
+      <module name="Problems-Individual_taxes" target="11" />
       <module name="Problems-Individual_taxes_main" target="11" />
       <module name="Problems-Individual_taxes_test" target="11" />
+      <module name="Problems-Initializing_an_array_of_characters" target="11" />
       <module name="Problems-Initializing_an_array_of_characters_main" target="11" />
       <module name="Problems-Initializing_an_array_of_characters_test" target="11" />
+      <module name="Problems-Initializing_an_array_of_longs" target="11" />
       <module name="Problems-Initializing_an_array_of_longs_main" target="11" />
       <module name="Problems-Initializing_an_array_of_longs_test" target="11" />
+      <module name="Problems-Inner_boxes" target="11" />
       <module name="Problems-Inner_boxes_main" target="11" />
       <module name="Problems-Inner_boxes_test" target="11" />
+      <module name="Problems-Interval" target="11" />
       <module name="Problems-Interval_main" target="11" />
       <module name="Problems-Interval_test" target="11" />
+      <module name="Problems-Modifying_a_map" target="11" />
+      <module name="Problems-Modifying_a_map_main" target="11" />
+      <module name="Problems-Modifying_a_map_test" target="11" />
+      <module name="Problems-Movie" target="11" />
       <module name="Problems-Movie_main" target="11" />
       <module name="Problems-Movie_test" target="11" />
+      <module name="Problems-Multiset" target="11" />
       <module name="Problems-Multiset_main" target="11" />
       <module name="Problems-Multiset_test" target="11" />
+      <module name="Problems-Mutable_geometric_shapes" target="11" />
       <module name="Problems-Mutable_geometric_shapes_main" target="11" />
       <module name="Problems-Mutable_geometric_shapes_test" target="11" />
+      <module name="Problems-Only_true_or_false" target="11" />
       <module name="Problems-Only_true_or_false_main" target="11" />
       <module name="Problems-Only_true_or_false_test" target="11" />
+      <module name="Problems-Output_elements" target="11" />
       <module name="Problems-Output_elements_main" target="11" />
       <module name="Problems-Output_elements_test" target="11" />
+      <module name="Problems-Pastry_packing_optimization" target="11" />
       <module name="Problems-Pastry_packing_optimization_main" target="11" />
       <module name="Problems-Pastry_packing_optimization_test" target="11" />
+      <module name="Problems-Phone" target="11" />
       <module name="Problems-Phone_main" target="11" />
       <module name="Problems-Phone_test" target="11" />
+      <module name="Problems-Preparing_full_name" target="11" />
       <module name="Problems-Preparing_full_name_main" target="11" />
       <module name="Problems-Preparing_full_name_test" target="11" />
+      <module name="Problems-Print" target="11" />
       <module name="Problems-Print_main" target="11" />
       <module name="Problems-Print_test" target="11" />
+      <module name="Problems-Project_constants_and_methods" target="11" />
       <module name="Problems-Project_constants_and_methods_main" target="11" />
       <module name="Problems-Project_constants_and_methods_test" target="11" />
+      <module name="Problems-Publication_and_its_subclasses" target="11" />
       <module name="Problems-Publication_and_its_subclasses_main" target="11" />
       <module name="Problems-Publication_and_its_subclasses_test" target="11" />
+      <module name="Problems-Publications" target="11" />
       <module name="Problems-Publications_main" target="11" />
       <module name="Problems-Publications_test" target="11" />
+      <module name="Problems-Return_empty_string_when_argument_is_null" target="11" />
       <module name="Problems-Return_empty_string_when_argument_is_null_main" target="11" />
       <module name="Problems-Return_empty_string_when_argument_is_null_test" target="11" />
+      <module name="Problems-Reverse_input_text" target="11" />
       <module name="Problems-Reverse_input_text_main" target="11" />
       <module name="Problems-Reverse_input_text_test" target="11" />
+      <module name="Problems-Safe_converting" target="11" />
       <module name="Problems-Safe_converting_main" target="11" />
       <module name="Problems-Safe_converting_test" target="11" />
+      <module name="Problems-Saying_animals" target="11" />
       <module name="Problems-Saying_animals_main" target="11" />
       <module name="Problems-Saying_animals_test" target="11" />
+      <module name="Problems-Shapes_area" target="11" />
       <module name="Problems-Shapes_area_main" target="11" />
       <module name="Problems-Shapes_area_test" target="11" />
+      <module name="Problems-Sherlock_Holmes_and_removing_of_characters" target="11" />
       <module name="Problems-Sherlock_Holmes_and_removing_of_characters_main" target="11" />
       <module name="Problems-Sherlock_Holmes_and_removing_of_characters_test" target="11" />
+      <module name="Problems-Simulating_a_clock" target="11" />
       <module name="Problems-Simulating_a_clock_main" target="11" />
       <module name="Problems-Simulating_a_clock_test" target="11" />
+      <module name="Problems-Spell_checker" target="11" />
       <module name="Problems-Spell_checker_main" target="11" />
       <module name="Problems-Spell_checker_test" target="11" />
+      <module name="Problems-String_to_double_conversion" target="11" />
       <module name="Problems-String_to_double_conversion_main" target="11" />
       <module name="Problems-String_to_double_conversion_test" target="11" />
+      <module name="Problems-Substitution_cipher" target="11" />
       <module name="Problems-Substitution_cipher_main" target="11" />
       <module name="Problems-Substitution_cipher_test" target="11" />
+      <module name="Problems-Sum_array_elements_greater_than_a_value" target="11" />
       <module name="Problems-Sum_array_elements_greater_than_a_value_main" target="11" />
       <module name="Problems-Sum_array_elements_greater_than_a_value_test" target="11" />
+      <module name="Problems-The_maximum_pairwise_product" target="11" />
       <module name="Problems-The_maximum_pairwise_product_main" target="11" />
       <module name="Problems-The_maximum_pairwise_product_test" target="11" />
+      <module name="Problems-The_minimum_value_of_an_array" target="11" />
       <module name="Problems-The_minimum_value_of_an_array_main" target="11" />
       <module name="Problems-The_minimum_value_of_an_array_test" target="11" />
+      <module name="Problems-The_sequence" target="11" />
       <module name="Problems-The_sequence_main" target="11" />
       <module name="Problems-The_sequence_test" target="11" />
+      <module name="Problems-Too_many_cats" target="11" />
       <module name="Problems-Too_many_cats_main" target="11" />
       <module name="Problems-Too_many_cats_test" target="11" />
+      <module name="Problems-Users" target="11" />
       <module name="Problems-Users_main" target="11" />
       <module name="Problems-Users_test" target="11" />
+      <module name="util" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>

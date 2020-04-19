@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 public static void main(String[] args) {
 
         User owner = new User("demo-user", "Alexander", "Schmidt");

@@ -4,11 +4,12 @@ class MapUtils {
 
     public static SortedMap<String, Integer> wordCount(String[] strings) {
         SortedMap<String, Integer> map = new TreeMap<>();
+        
         for (String string : strings) {
-
             int count = map.containsKey(string) ? map.get(string) : 0;
             map.put(string, count + 1);
         }
+        
         return map;
     }
 

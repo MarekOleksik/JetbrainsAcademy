@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 class Employee {
 
     protected String name;
@@ -32,4 +33,3 @@ class ContractEmployee extends Employee {
         this.contractPeriod = contractPeriod;
     }
 }
-
