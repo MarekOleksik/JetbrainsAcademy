@@ -1,10 +1,7 @@
 package flashcards;
 
 import java.io.*;
-import java.util.Map;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Main {
 
@@ -13,15 +10,20 @@ public class Main {
     private static String term = "";
     private static String definition = "";
     private static String filePath = "";
+    private static List<String> logList = new LinkedList<>();
+    private static Map<String, Integer> hardestCardMap = new TreeMap<>();
+    private static int hardestCard = 0;
+    private static String keyHardestCard = "";
+    private static List<String> listHardestCards = new LinkedList<>();
 
 
     public static void main(String[] args) throws InterruptedException, IOException {
         String answer = "";
 
         while (!"exit".equals(answer)) {
-            System.out.println("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):");
-            scanner.skip("\\R");
-            answer = scanner.nextLine();
+            outputMsg("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):");
+            // scanner.skip("\\R");
+            answer = getUserInput();
             switch (answer) {
                 case "add":
                     add();
@@ -39,16 +41,18 @@ public class Main {
                     ask();
                     break;
                 case "map":
-                    map.forEach((key, value) -> System.out.println(key + " : " + value));
+                    map.forEach((key, value) -> outputMsg(key + " : " + value));
+                    hardestCardMap.forEach((key, value) -> System.out.println("hardest card: " + key + ":" + value));
+                    listHardestCards.forEach(System.out::println);
                     break;
                 case "exit":
-                    System.out.println("Bye bye!");
+                    outputMsg("Bye bye!");
                     return;
                 case "log":
                     log();
                     break;
                 case "hardest card":
-                    System.out.println("hardest card");
+                    hardestCard();
                     break;
                 case "reset stats":
                     resetStats();
@@ -58,53 +62,102 @@ public class Main {
         }
     }
 
-    private static void resetStats() {
+    private static void hardestCard() {
+
+        hardestCard = 0;
+        hardestCardMap.forEach((key, value) -> {
+            if (value > hardestCard) {
+                listHardestCards.remove(keyHardestCard);
+                hardestCard = value;
+                keyHardestCard = key;
+                listHardestCards.add(keyHardestCard);
+            } else if(value == hardestCard && value !=0) {
+                hardestCard = value;
+                keyHardestCard = key;
+                listHardestCards.add(keyHardestCard);
+            }
+
+        });
+
+        if (hardestCard == 0) {
+            outputMsg("There are no cards with errors.");
+        } else if (listHardestCards.size() == 1) {
+            outputMsg("The hardest card is \"" + keyHardestCard + "\". You have " + hardestCard + " errors answering it.");
+        } else if (listHardestCards.size() > 1) {
+            String result = "\"" + listHardestCards.get(0) + "\"";
+            for (int i = 1; i < listHardestCards.size(); i++) {
+                result = result + ", \"" + listHardestCards.get(i) + "\"";
+               System.out.println(result);
+            }
+            outputMsg("The hardest card is \"" + result + "\" with " + hardestCard + " mistakes.");
+        }
     }
 
-    private static void log() {
+    private static void resetStats() {
+        hardestCardMap.forEach((key, value) -> {
+            hardestCardMap.put(key, 0);
+        });
+        listHardestCards.clear();
+        outputMsg("Card statistics has been reset.");
+    }
+
+    private static void log() throws FileNotFoundException {
+        outputMsg("File name:");
+        filePath = getUserInput();
+        PrintWriter printWriter = new PrintWriter(filePath);
+        for (String item : logList) {
+            printWriter.println(item);
+        }
+        printWriter.flush();
+        outputMsg("The log have been saved");
+
     }
 
     private static void add() {
-        System.out.printf("The card:%n");
-        scanner.skip("\\R");
-        term = scanner.nextLine();
+        outputMsg("The card:");
+        // scanner.skip("\\R");
+        term = getUserInput();
         while (map.containsKey(term)) {
-            System.out.printf("The card \"%s\" already exists.\n", term);
+            outputMsg("The card \"" + term + "\" already exists.");
             System.out.println();
             return;
         }
-        System.out.printf("The definition of the card:%n");
-        definition = scanner.nextLine();
+        outputMsg("The definition of the card:");
+        definition = getUserInput();
         while (map.containsValue(definition)) {
-            System.out.printf("The definition \"%s\" already exists.\n", definition);
+            outputMsg("The definition \"" + definition + "\" already exists.");
             System.out.println();
             return;
         }
         map.put(term, definition);
-        System.out.printf("The pair(\"%s\":\"%s\") has been added.%n", term, definition);
+        hardestCardMap.put(term, 0);
+
+        outputMsg("The pair(\"" + term + "\":\"" + definition + "\") has been added.");
         System.out.println();
     }
 
     private static void remove() {
-        scanner.skip("\\R");
-        System.out.printf("The card:%n");
-        term = scanner.nextLine();
+        //scanner.skip("\\R");
+        outputMsg("The card:");
+        term = getUserInput();
         if (map.containsKey(term)) {
             map.remove(term);
-            System.out.println("The card has been removed");
+            hardestCardMap.remove(term);
+            outputMsg("The card has been removed");
         } else {
-            System.out.printf("Can't remove \"%s\": there is no such card.%n", term);
+            outputMsg("Can't remove \"" + term + "\": there is no such card.");
         }
         System.out.println();
     }
 
+
     private static void importFile() throws FileNotFoundException {
-        scanner.skip("\\R");
-        System.out.printf("File name:%n");
-        filePath = scanner.nextLine();
+        //scanner.skip("\\R");
+        outputMsg("File name:");
+        filePath = getUserInput();
         File file = new File(filePath);
         if (!file.exists()) {
-            System.out.printf("File not found.%n");
+            outputMsg("File not found.");
         } else {
             Scanner scanFile = new Scanner(new File(filePath));
 
@@ -113,31 +166,34 @@ public class Main {
                 term = scanFile.next();
                 counter++;
                 definition = scanFile.next();
+                hardestCard = Integer.parseInt(scanFile.next());
                 map.put(term, definition);
+                hardestCardMap.put(term, hardestCard);
             }
-            System.out.println(counter + " cards have been loaded.");
+            outputMsg(counter + " cards have been loaded.");
         }
         System.out.println();
     }
 
     private static void export() throws IOException {
-        scanner.skip("\\R");
-        System.out.printf("File name:%n");
-        filePath = scanner.nextLine();
-        FileWriter writer = new FileWriter(new File(filePath));
-        PrintWriter printWriter = new PrintWriter(writer);
+        //scanner.skip("\\R");
+        outputMsg("File name:");
+        filePath = getUserInput();
+        PrintWriter printWriter = new PrintWriter(filePath);
         map.forEach((key, value) -> {
             printWriter.println(key);
             printWriter.println(value);
+            printWriter.println(hardestCardMap.get(key));
+            printWriter.flush();
         });
-        System.out.printf("%d cards have been saved.%n", map.size());
+        outputMsg(map.size() + " cards have been saved.");
         System.out.println();
-        printWriter.flush();
+
     }
 
     private static void ask() {
-        System.out.printf("How many times to ask?%n");
-        int numberOfAsks = Integer.parseInt(scanner.next());
+        outputMsg("How many times to ask?");
+        int numberOfAsks = Integer.parseInt(getUserInput());
 
         Random generator = new Random();
         Object[] values = map.values().toArray();
@@ -147,15 +203,19 @@ public class Main {
         String value = map.get(key);
 
         for (int i = 0; i < numberOfAsks; i++) {
-            System.out.printf("Print the definition of \"%s\":%n", key);
-            String input = scanner.next();
+            outputMsg("Print the definition of \"" + key + "\": ");
+            String input = getUserInput();
 
             if (value.equals(input)) {
-                System.out.printf("Correct answer.%n");
+                outputMsg("Correct answer.");
             } else if (map.containsValue(input)) {
-                System.out.printf("Wrong answer. The correct one is \"%s\", you've just written the definition of \"%s\".%n", value, getKeyFromValue(map, input));
+                outputMsg("Wrong answer. The correct one is \"" + value + "\", you've just written the definition of \"" + getKeyFromValue(map, input) + "\".");
+                hardestCard = hardestCardMap.get(key) + 1;
+                hardestCardMap.put(key, hardestCard);
             } else {
-                System.out.printf("Wrong answer. The correct one is \"%s\".%n", value);
+                outputMsg("Wrong answer. The correct one is \"" + value + "\".");
+                hardestCard = hardestCardMap.get(key) + 1;
+                hardestCardMap.put(key, hardestCard);
             }
         }
     }
@@ -168,5 +228,16 @@ public class Main {
             }
         }
         return null;
+    }
+
+    private static void outputMsg(String msg) {
+        System.out.println(msg);
+        logList.add(msg);
+    }
+
+    private static String getUserInput() {
+        String answer = scanner.nextLine();
+        logList.add(answer);
+        return answer;
     }
 }

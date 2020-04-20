@@ -1,0 +1,35 @@
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+add
+The card:
+1
+The definition of the card:
+43
+The pair("1":"43") has been added.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+add
+The card:
+3
+The definition of the card:
+fssd
+The pair("3":"fssd") has been added.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+add
+The card:
+3
+The card "3" already exists.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+add
+The card:
+5
+The definition of the card:
+2
+The pair("5":"2") has been added.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+map
+1 : 43
+3 : fssd
+5 : 2
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+log
+File name:
+log.txt

@@ -17,9 +17,9 @@ files:
 
     import flashcards.Main
 
-    import org.hyperskill.hstest.v6.stage.BaseStageTest
-    import org.hyperskill.hstest.v6.testcase.CheckResult
-    import org.hyperskill.hstest.v6.testcase.TestCase
+    import org.hyperskill.hstest.stage.StageTest
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testcase.TestCase
     import common.FlashcardsStage2Answer.RIGHT
     import common.FlashcardsStage2Answer.WRONG
 
@@ -34,7 +34,7 @@ files:
         WRONG("wrong");
     }
 
-    abstract class FlashcardsStage2Test : BaseStageTest<FlashcardsStage2Clue>(Main::class.java) {
+    abstract class FlashcardsStage2Test : StageTest<FlashcardsStage2Clue>(Main::class.java) {
 
         override fun generate(): List<TestCase<FlashcardsStage2Clue>> {
             return listOf(
@@ -105,15 +105,82 @@ files:
   learner_created: false
 - name: src/flashcards/Main.java
   visible: true
-  text: |
-    package flashcards;
-
-    public class Main {
-        public static void main(String[] args) {
-            System.out.println("Hello World!");
-        }
-    }
+  text: "package flashcards;\n\nimport java.io.*;\nimport java.util.Map;\nimport java.util.Random;\n\
+    import java.util.Scanner;\nimport java.util.TreeMap;\n\npublic class Main {\n\n\
+    \    private static Scanner scanner = new Scanner(System.in);\n    private static\
+    \ Map<String, String> map = new TreeMap<>();\n    private static String term =\
+    \ \"\";\n    private static String definition = \"\";\n    private static String\
+    \ filePath = \"\";\n\n\n    public static void main(String[] args) throws InterruptedException,\
+    \ IOException {\n        String answer = \"\";\n\n        while (!\"exit\".equals(answer))\
+    \ {\n            System.out.println(\"Input the action (add, remove, import, export,\
+    \ ask, exit, log, hardest card, reset stats):\");\n            scanner.skip(\"\
+    \\\\R\");\n            answer = scanner.nextLine();\n            switch (answer)\
+    \ {\n                case \"add\":\n                    add();\n             \
+    \       break;\n                case \"remove\":\n                    remove();\n\
+    \                    break;\n                case \"import\":\n              \
+    \      importFile();\n                    break;\n                case \"export\"\
+    :\n                    export();\n                    break;\n               \
+    \ case \"ask\":\n                    ask();\n                    break;\n    \
+    \            case \"map\":\n                    map.forEach((key, value) -> System.out.println(key\
+    \ + \" : \" + value));\n                    break;\n                case \"exit\"\
+    :\n                    System.out.println(\"Bye bye!\");\n                   \
+    \ return;\n                case \"log\":\n                    log();\n       \
+    \             break;\n                case \"hardest card\":\n               \
+    \     System.out.println(\"hardest card\");\n                    break;\n    \
+    \            case \"reset stats\":\n                    resetStats();\n      \
+    \              break;\n                    \n            }\n        }\n    }\n\
+    \n    private static void resetStats() {\n    }\n\n    private static void log()\
+    \ {\n    }\n\n    private static void add() {\n        System.out.printf(\"The\
+    \ card:%n\");\n        scanner.skip(\"\\\\R\");\n        term = scanner.nextLine();\n\
+    \        while (map.containsKey(term)) {\n            System.out.printf(\"The\
+    \ card \\\"%s\\\" already exists.\\n\", term);\n            System.out.println();\n\
+    \            return;\n        }\n        System.out.printf(\"The definition of\
+    \ the card:%n\");\n        definition = scanner.nextLine();\n        while (map.containsValue(definition))\
+    \ {\n            System.out.printf(\"The definition \\\"%s\\\" already exists.\\\
+    n\", definition);\n            System.out.println();\n            return;\n  \
+    \      }\n        map.put(term, definition);\n        System.out.printf(\"The\
+    \ pair(\\\"%s\\\":\\\"%s\\\") has been added.%n\", term, definition);\n      \
+    \  System.out.println();\n    }\n\n    private static void remove() {\n      \
+    \  scanner.skip(\"\\\\R\");\n        System.out.printf(\"The card:%n\");\n   \
+    \     term = scanner.nextLine();\n        if (map.containsKey(term)) {\n     \
+    \       map.remove(term);\n            System.out.println(\"The card has been\
+    \ removed\");\n        } else {\n            System.out.printf(\"Can't remove\
+    \ \\\"%s\\\": there is no such card.%n\", term);\n        }\n        System.out.println();\n\
+    \    }\n\n    private static void importFile() throws FileNotFoundException {\n\
+    \        scanner.skip(\"\\\\R\");\n        System.out.printf(\"File name:%n\"\
+    );\n        filePath = scanner.nextLine();\n        File file = new File(filePath);\n\
+    \        if (!file.exists()) {\n            System.out.printf(\"File not found.%n\"\
+    );\n        } else {\n            Scanner scanFile = new Scanner(new File(filePath));\n\
+    \n            int counter = 0;\n            while (scanFile.hasNext()) {\n   \
+    \             term = scanFile.next();\n                counter++;\n          \
+    \      definition = scanFile.next();\n                map.put(term, definition);\n\
+    \            }\n            System.out.println(counter + \" cards have been loaded.\"\
+    );\n        }\n        System.out.println();\n    }\n\n    private static void\
+    \ export() throws IOException {\n        scanner.skip(\"\\\\R\");\n        System.out.printf(\"\
+    File name:%n\");\n        filePath = scanner.nextLine();\n        FileWriter writer\
+    \ = new FileWriter(new File(filePath));\n        PrintWriter printWriter = new\
+    \ PrintWriter(writer);\n        map.forEach((key, value) -> {\n            printWriter.println(key);\n\
+    \            printWriter.println(value);\n        });\n        System.out.printf(\"\
+    %d cards have been saved.%n\", map.size());\n        System.out.println();\n \
+    \       printWriter.flush();\n    }\n\n    private static void ask() {\n     \
+    \   System.out.printf(\"How many times to ask?%n\");\n        int numberOfAsks\
+    \ = Integer.parseInt(scanner.next());\n\n        Random generator = new Random();\n\
+    \        Object[] values = map.values().toArray();\n        String randomValue\
+    \ = (String) values[generator.nextInt(values.length)];\n\n        String key =\
+    \ (String) getKeyFromValue(map, randomValue);\n        String value = map.get(key);\n\
+    \n        for (int i = 0; i < numberOfAsks; i++) {\n            System.out.printf(\"\
+    Print the definition of \\\"%s\\\":%n\", key);\n            String input = scanner.next();\n\
+    \n            if (value.equals(input)) {\n                System.out.printf(\"\
+    Correct answer.%n\");\n            } else if (map.containsValue(input)) {\n  \
+    \              System.out.printf(\"Wrong answer. The correct one is \\\"%s\\\"\
+    , you've just written the definition of \\\"%s\\\".%n\", value, getKeyFromValue(map,\
+    \ input));\n            } else {\n                System.out.printf(\"Wrong answer.\
+    \ The correct one is \\\"%s\\\".%n\", value);\n            }\n        }\n    }\n\
+    \n\n    public static Object getKeyFromValue(Map hm, Object value) {\n       \
+    \ for (Object o : hm.keySet()) {\n            if (hm.get(o).equals(value)) {\n\
+    \                return o;\n            }\n        }\n        return null;\n \
+    \   }\n}\n"
   learner_created: false
 feedback_link: https://hyperskill.org/projects/44/stages/233/implement
 status: Solved
-record: 2
+record: 5
