@@ -2,23 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3dec615-b6d3-4333-9d58-64612f0947ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Problems-Reversing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Problems-Reversing_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Problems-Reversing_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Reversing/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Reversing/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Reversing/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Reversing/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Adding values/Problems-Adding_values.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Adding values/Problems-Adding_values_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Adding values/Problems-Adding_values_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Advanced calculator/Problems-Advanced_calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Advanced calculator/Problems-Advanced_calculator_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Advanced calculator/Problems-Advanced_calculator_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fixing the main method/Problems-Fixing_the_main_method.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fixing the main method/Problems-Fixing_the_main_method_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fixing the main method/Problems-Fixing_the_main_method_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Parameters and their values/Problems-Parameters_and_their_values.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Parameters and their values/Problems-Parameters_and_their_values_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Parameters and their values/Problems-Parameters_and_their_values_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The index of an argument/Problems-The_index_of_an_argument.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The index of an argument/Problems-The_index_of_an_argument_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The index of an argument/Problems-The_index_of_an_argument_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flashcards/task/capitalsNew.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding values/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding values/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding values/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding values/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Advanced calculator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Advanced calculator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Advanced calculator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Advanced calculator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Basic calculator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Basic calculator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Basic calculator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Basic calculator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fixing the main method/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fixing the main method/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fixing the main method/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fixing the main method/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Get first and last elements/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Get first and last elements/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Get first and last elements/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Get first and last elements/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The index of an argument/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The index of an argument/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The index of an argument/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The index of an argument/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capitalsNew.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/export.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -27,267 +61,49 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards-task_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Flashcards/task/JetbrainsAcademy-Flashcards-task_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account Service/Problems-Account_Service_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account and its owner/Problems-Account_and_its_owner_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Account/Problems-Account_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Application as a class/Problems-Application_as_a_class_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Are siblings/Problems-Are_siblings_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Army/Problems-Army_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Problems-Avoid_NPE_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Avoid division by zero/Problems-Avoid_division_by_zero_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/Problems-Binary_search_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Problems-Blacklist_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Book/Problems-Book_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Books/Problems-Books_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Boxes are not just objects!/Problems-Boxes_are_not_just_objects!_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Catching some exceptions/Problems-Catching_some_exceptions_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/Problems-Classes_for_Hospital_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Compact strings with AsciiCharSequence/Problems-Compact_strings_with_AsciiCharSequence_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Complex numbers/Problems-Complex_numbers_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Complex/Problems-Complex_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Concat positive numbers/Problems-Concat_positive_numbers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Concat positive numbers/Problems-Concat_positive_numbers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Concat positive numbers/Problems-Concat_positive_numbers_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Concat positive numbers/Problems-Concat_positive_numbers_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Concat positive numbers/Problems-Concat_positive_numbers_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Concat positive numbers/Problems-Concat_positive_numbers_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Converting and multiplying/Problems-Converting_and_multiplying_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count how many times a number occurs/Problems-Count_how_many_times_a_number_occurs_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Counter/Problems-Counter_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Counting words/Problems-Counting_words_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Creating a set/Problems-Creating_a_set_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating list/Problems-Creating_list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Creating list/Problems-Creating_list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating list/Problems-Creating_list_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Creating list/Problems-Creating_list_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Creating list/Problems-Creating_list_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Creating list/Problems-Creating_list_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Displaying pairs/Problems-Displaying_pairs_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Employee/Problems-Employee_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Employees/Problems-Employees_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find mistake/Problems-Find_mistake_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the nearest number/Problems-Find_the_nearest_number.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find the nearest number/Problems-Find_the_nearest_number.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the nearest number/Problems-Find_the_nearest_number_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find the nearest number/Problems-Find_the_nearest_number_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the nearest number/Problems-Find_the_nearest_number_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find the nearest number/Problems-Find_the_nearest_number_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Find the seed/Problems-Find_the_seed_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the non-compiled hierarchy/Problems-Fix_the_non-compiled_hierarchy_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1__main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1__main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1__test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (1)/Problems-Fix_the_program__1__test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2__main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2__main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2__test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program (2)/Problems-Fix_the_program__2__test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Problems-Fix_the_program_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Generate random numbers/Problems-Generate_random_numbers_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/Problems-Getting_the_fullname_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Harry Potter/Problems-Harry_Potter_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of characters/Problems-Initializing_an_array_of_characters_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Initializing an array of longs/Problems-Initializing_an_array_of_longs_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Inner boxes/Problems-Inner_boxes_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Interval/Problems-Interval_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Modifying a map/Problems-Modifying_a_map.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Modifying a map/Problems-Modifying_a_map.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Modifying a map/Problems-Modifying_a_map_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Modifying a map/Problems-Modifying_a_map_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Modifying a map/Problems-Modifying_a_map_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Modifying a map/Problems-Modifying_a_map_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Movie/Problems-Movie_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Multiset/Problems-Multiset_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Mutable geometric shapes/Problems-Mutable_geometric_shapes_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Only true or false/Problems-Only_true_or_false_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Output elements/Problems-Output_elements_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Pastry packing optimization/Problems-Pastry_packing_optimization_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Phone/Problems-Phone_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Preparing full name/Problems-Preparing_full_name_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Print/Problems-Print_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Project constants and methods/Problems-Project_constants_and_methods_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Publication and its subclasses/Problems-Publication_and_its_subclasses_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Publications/Problems-Publications_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Return empty string when argument is null/Problems-Return_empty_string_when_argument_is_null_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Safe converting/Problems-Safe_converting_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Saying animals/Problems-Saying_animals_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Shapes area/Problems-Shapes_area_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sherlock Holmes and removing of characters/Problems-Sherlock_Holmes_and_removing_of_characters_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Simulating a clock/Problems-Simulating_a_clock_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Spell checker/Problems-Spell_checker_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/String to double conversion/Problems-String_to_double_conversion_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Substitution cipher/Problems-Substitution_cipher_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sum array elements greater than a value/Problems-Sum_array_elements_greater_than_a_value.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sum array elements greater than a value/Problems-Sum_array_elements_greater_than_a_value.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sum array elements greater than a value/Problems-Sum_array_elements_greater_than_a_value_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sum array elements greater than a value/Problems-Sum_array_elements_greater_than_a_value_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sum array elements greater than a value/Problems-Sum_array_elements_greater_than_a_value_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sum array elements greater than a value/Problems-Sum_array_elements_greater_than_a_value_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The maximum pairwise product/Problems-The_maximum_pairwise_product_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The minimum value of an array/Problems-The_minimum_value_of_an_array_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Too many cats/Problems-Too_many_cats_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Users/Problems-Users_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/A good stack/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/A good stack/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/A good stack/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/A good stack/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/IMPORTant/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/IMPORTant/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/IMPORTant/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/IMPORTant/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/Make it your own/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Make it your own/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/Make it your own/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Make it your own/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/Menu, please!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Menu, please!/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/Menu, please!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Menu, please!/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Stage one, card one/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/Statistics/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Statistics/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/Statistics/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/Statistics/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/What’s on the card/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/What’s on the card/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/What’s on the card/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/What’s on the card/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/classes/FlashcardsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/classes/FlashcardsTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/reports/tests/test/index.html" afterDir="false" />
@@ -296,90 +112,14 @@
       <change beforePath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_10433964436196302099_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_10524529087911323590_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_10925612444607911833_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11092603404955592647_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11187134467498235959_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_1141564718517785110_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11516007888460998453_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11842710809894599002_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_11916056790450396904_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12026756165236306617_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12045388918346238839_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12064517694653022169_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12126013982092502722_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12188068573360789560_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12379961274696929751_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12554109138540770541_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12765923725503336129_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_12962060311040886935_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13290621134978956969_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13483465617628688156_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13484800932092307299_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_13586636276394857923_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_14339009736069527530_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_14638977528968784771_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_1482178965426798977_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15137305636977389881_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15436360417691446228_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15587623399942801486_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15791468967120858854_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_15865208225377272446_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_16370539210223560349_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_1670795908053315759_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_16944419975842439524_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17367555059139302682_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17493697653890206619_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17494593947836498469_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17523782185924734663_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17628925073479885456_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_17744016052186685876_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_18177386445361761831_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_18316386513664353580_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_18402490731009642626_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2072249248909929801_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2437304954419756731_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2605602059402631604_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_2618527736148033962_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_3034291400368514460_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_4390762235253843005_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_4968093455430835065_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5225608433726487291_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5421688298759990294_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5576648131663823215_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5693825217232333262_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_57182863665910706_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_5858374480034649859_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7287972317961105742_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7288756066103999126_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7575924827342697830_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7755157854280459083_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_7800344836052089758_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_8248345172590513577_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_9270336112527885722_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards/task/build/tmp/test/jar_extract_9845511702867206436_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/capitals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/capitals.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards/task/src/flashcards/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/src/flashcards/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Binary search/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Binary search/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Binary search/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Binary search/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Fix the program/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Fix the program/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Fix the program/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Fix the program/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Individual taxes/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Individual taxes/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Individual taxes/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Individual taxes/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Print/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Print/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Print/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Print/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Reverse input text/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Reverse input text/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Simulating a clock/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Simulating a clock/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Simulating a clock/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Simulating a clock/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/test/FlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/test/FlashcardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/test/common/DialogClue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/test/common/DialogClue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/test/common/FlashcardsStage6Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/task/test/common/FlashcardsStage7Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards/task/testLog.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capitals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capitals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capitalsNew.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,21 +135,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ao0bMQg6lRTkgPGEQNEYozzR7I" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (2)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Problems-Adding_values_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Problems-Get_first_and_last_elements_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="flashcards.Main" />
       <module name="Flashcards-task_main" />
+      <option name="PROGRAM_PARAMETERS" value="-export capitals.txt -import capitalsNew.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="flashcards.*" />
@@ -420,9 +180,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem" />
+      <module name="Problems-Parameters_and_their_values_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem" />
+      <module name="Problems-Advanced_calculator_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Problem" />
+      <item itemvalue="Application.Problem (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Problem (1)" />
+        <item itemvalue="Application.Problem" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -439,22 +222,37 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587399702721">
+    <state x="628" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587488449483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587399702721" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587399702720">
+    <state x="628" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587488449483" />
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom" timestamp="1587489018686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587399702720" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587399702720">
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587489018686" />
+    <state width="1860" height="282" key="GridCell.Tab.0.center" timestamp="1587489018686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587399702720" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587399702721">
+    <state width="1860" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587489018686" />
+    <state width="1860" height="282" key="GridCell.Tab.0.left" timestamp="1587489018686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587399702721" />
+    <state width="1860" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587489018686" />
+    <state width="1860" height="282" key="GridCell.Tab.0.right" timestamp="1587489018686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587489018686" />
+    <state x="775" y="454" key="ReplaceDuplicatesPrompt" timestamp="1587481138666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="454" key="ReplaceDuplicatesPrompt/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587481138666" />
+    <state x="690" y="270" key="extract.method.dialog" timestamp="1587488347737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="270" key="extract.method.dialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587488347737" />
   </component>
 </project>

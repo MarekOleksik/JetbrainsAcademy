@@ -18,6 +18,30 @@ public class Main {
 
 
     public static void main(String[] args) throws InterruptedException, IOException {
+        if (args.length == 0 || (args.length == 2 && args[0].equals("-export"))) {
+            runProgram(args);
+        } else {
+            importOnStart(args);
+        }
+    }
+
+    private static void importOnStart(String[] args) throws IOException {
+        if (args.length == 2 && args[0].equals("-import")) {
+            filePath = args[1];
+            importFile(filePath);
+            runProgram(args);
+        } else if (args.length == 4 && args[0].equals("-import")) {
+            filePath = args[1];
+            importFile(filePath);
+            runProgram(args);
+        } else if (args.length == 4 && args[2].equals("-import")) {
+            filePath = args[3];
+            importFile(filePath);
+            runProgram(args);
+        }
+    }
+
+    private static void runProgram(String[] args) throws IOException {
         String answer = "";
 
         while (!"exit".equals(answer)) {
@@ -32,10 +56,12 @@ public class Main {
                     remove();
                     break;
                 case "import":
-                    importFile();
+                    filePath = getFileName();
+                    importFile(filePath);
                     break;
                 case "export":
-                    export();
+                    filePath = getFileName();
+                    export(filePath);
                     break;
                 case "ask":
                     ask();
@@ -47,7 +73,8 @@ public class Main {
                     break;
                 case "exit":
                     outputMsg("Bye bye!");
-                    return;
+                    exportOnExit(args);
+                    break;
                 case "log":
                     log();
                     break;
@@ -62,6 +89,20 @@ public class Main {
         }
     }
 
+    private static void exportOnExit(String[] args) throws IOException {
+        if (args.length == 2 && args[0].equals("-export")) {
+            filePath = args[1];
+            export(filePath);
+        } else if (args.length == 4 && args[0].equals("-export")) {
+            filePath = args[1];
+            export(filePath);
+        } else if (args.length == 4 && args[2].equals("-export")) {
+            filePath = args[3];
+            export(filePath);
+        }
+    }
+
+
     private static void hardestCard() {
 
         hardestCard = 0;
@@ -71,7 +112,7 @@ public class Main {
                 hardestCard = value;
                 keyHardestCard = key;
                 listHardestCards.add(keyHardestCard);
-            } else if(value == hardestCard && value !=0) {
+            } else if (value == hardestCard && value != 0) {
                 hardestCard = value;
                 keyHardestCard = key;
                 listHardestCards.add(keyHardestCard);
@@ -87,7 +128,7 @@ public class Main {
             String result = "\"" + listHardestCards.get(0) + "\"";
             for (int i = 1; i < listHardestCards.size(); i++) {
                 result = result + ", \"" + listHardestCards.get(i) + "\"";
-               System.out.println(result);
+                System.out.println(result);
             }
             outputMsg("The hardest card is \"" + result + "\" with " + hardestCard + " mistakes.");
         }
@@ -102,8 +143,7 @@ public class Main {
     }
 
     private static void log() throws FileNotFoundException {
-        outputMsg("File name:");
-        filePath = getUserInput();
+        getFileName();
         PrintWriter printWriter = new PrintWriter(filePath);
         for (String item : logList) {
             printWriter.println(item);
@@ -115,7 +155,6 @@ public class Main {
 
     private static void add() {
         outputMsg("The card:");
-        // scanner.skip("\\R");
         term = getUserInput();
         while (map.containsKey(term)) {
             outputMsg("The card \"" + term + "\" already exists.");
@@ -137,7 +176,6 @@ public class Main {
     }
 
     private static void remove() {
-        //scanner.skip("\\R");
         outputMsg("The card:");
         term = getUserInput();
         if (map.containsKey(term)) {
@@ -151,10 +189,7 @@ public class Main {
     }
 
 
-    private static void importFile() throws FileNotFoundException {
-        //scanner.skip("\\R");
-        outputMsg("File name:");
-        filePath = getUserInput();
+    private static void importFile(String filePath) throws FileNotFoundException {
         File file = new File(filePath);
         if (!file.exists()) {
             outputMsg("File not found.");
@@ -170,15 +205,13 @@ public class Main {
                 map.put(term, definition);
                 hardestCardMap.put(term, hardestCard);
             }
-            outputMsg(counter + " cards have been loaded.");
+
+            outputMsg(counter + " cards have been loaded");
         }
         System.out.println();
     }
 
-    private static void export() throws IOException {
-        //scanner.skip("\\R");
-        outputMsg("File name:");
-        filePath = getUserInput();
+    private static void export(String filePath) throws IOException {
         PrintWriter printWriter = new PrintWriter(filePath);
         map.forEach((key, value) -> {
             printWriter.println(key);
@@ -191,14 +224,19 @@ public class Main {
 
     }
 
+    private static String getFileName() {
+        outputMsg("File name:");
+        filePath = getUserInput();
+        return filePath;
+    }
+
     private static void ask() {
         outputMsg("How many times to ask?");
         int numberOfAsks = Integer.parseInt(getUserInput());
 
-        Random generator = new Random();
-        Object[] values = map.values().toArray();
-        String randomValue = (String) values[generator.nextInt(values.length)];
-
+        List<String> keysAsArray = new ArrayList<>(map.keySet());
+        Random r = new Random();
+        String randomValue = map.get(keysAsArray.get(r.nextInt(keysAsArray.size())));
         String key = (String) getKeyFromValue(map, randomValue);
         String value = map.get(key);
 
