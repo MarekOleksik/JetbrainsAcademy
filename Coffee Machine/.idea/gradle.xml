@@ -13,9 +13,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Coffee Machine/task" />
             <option value="$PROJECT_DIR$/Problems/Check if an array is sorted ascending" />
+            <option value="$PROJECT_DIR$/Problems/Cinema" />
+            <option value="$PROJECT_DIR$/Problems/Composite numbers" />
             <option value="$PROJECT_DIR$/Problems/Cyclically shifting elements" />
             <option value="$PROJECT_DIR$/Problems/Danger levels" />
             <option value="$PROJECT_DIR$/Problems/Days of week" />
+            <option value="$PROJECT_DIR$/Problems/Pretty looking pattern" />
+            <option value="$PROJECT_DIR$/Problems/Spiral" />
             <option value="$PROJECT_DIR$/Problems/The secret enumeration" />
             <option value="$PROJECT_DIR$/util" />
           </set>

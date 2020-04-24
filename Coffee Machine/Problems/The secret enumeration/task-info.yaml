@@ -19,9 +19,6 @@ files:
 - name: src/Secret.java
   visible: true
   learner_created: true
-- name: src/Machine.java
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/2970
 status: Solved
 record: -1
