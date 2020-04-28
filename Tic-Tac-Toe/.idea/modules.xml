@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape.iml" group="Tic-Tac-Toe/Problems-Shape" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape_main.iml" group="Tic-Tac-Toe/Problems-Shape" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape_test.iml" group="Tic-Tac-Toe/Problems-Shape" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe.iml" group="Tic-Tac-Toe" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic-Tac-Toe-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic-Tac-Toe-task.iml" group="Tic-Tac-Toe/Tic-Tac-Toe-task" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic-Tac-Toe-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/task/Tic-Tac-Toe-task_main.iml" group="Tic-Tac-Toe/Tic-Tac-Toe-task" />
