@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption.iml" group="Encryption-Decryption" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_main.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_test.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert a date/Problems-Convert_a_date.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert a date/Problems-Convert_a_date.iml" group="Encryption-Decryption/Problems-Convert_a_date" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert a date/Problems-Convert_a_date_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert a date/Problems-Convert_a_date_main.iml" group="Encryption-Decryption/Problems-Convert_a_date" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert a date/Problems-Convert_a_date_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert a date/Problems-Convert_a_date_test.iml" group="Encryption-Decryption/Problems-Convert_a_date" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Lucky number/Problems-Lucky_number.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Lucky number/Problems-Lucky_number.iml" group="Encryption-Decryption/Problems-Lucky_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Lucky number/Problems-Lucky_number_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Lucky number/Problems-Lucky_number_main.iml" group="Encryption-Decryption/Problems-Lucky_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Lucky number/Problems-Lucky_number_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Lucky number/Problems-Lucky_number_test.iml" group="Encryption-Decryption/Problems-Lucky_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Problems-Piece_of_alphabet.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Problems-Piece_of_alphabet.iml" group="Encryption-Decryption/Problems-Piece_of_alphabet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Problems-Piece_of_alphabet_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Problems-Piece_of_alphabet_main.iml" group="Encryption-Decryption/Problems-Piece_of_alphabet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Problems-Piece_of_alphabet_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Problems-Piece_of_alphabet_test.iml" group="Encryption-Decryption/Problems-Piece_of_alphabet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Encryption-Decryption/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Encryption-Decryption/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Encryption-Decryption/util" />
+    </modules>
+  </component>
+</project>
