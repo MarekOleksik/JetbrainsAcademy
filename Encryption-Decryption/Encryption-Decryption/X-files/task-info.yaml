@@ -110,6 +110,27 @@ files:
         }
     }
   learner_created: false
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  learner_created: true
+- name: test/output.txt
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/road_to_treasure.txt.txt
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/output.txt
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/in.txt
+  visible: true
+  learner_created: true
+- name: in.txt
+  visible: true
+  learner_created: true
+- name: output.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/249/implement
-status: Unchecked
+status: Solved
 record: -1

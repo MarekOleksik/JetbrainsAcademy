@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EncryptDecryptTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-03T14:07:54" hostname="komputer" time="0.12">
+<testsuite name="EncryptDecryptTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-03T14:53:20" hostname="komputer" time="0.235">
   <properties/>
-  <testcase name="start" classname="EncryptDecryptTest" time="0.12">
-    <failure message="java.lang.AssertionError: Exception in test #1&#10;&#10;java.lang.NumberFormatException: null&#13;&#10;&#9;at java.base/java.lang.Integer.parseInt(Integer.java:614)&#13;&#10;&#9;at java.base/java.lang.Integer.parseInt(Integer.java:770)&#13;&#10;&#9;at encryptdecrypt.Main.main(Main.java:18)&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;&gt; welcome to hyperskill&#10;&gt; 5" type="java.lang.AssertionError">java.lang.AssertionError: Exception in test #1
+  <testcase name="start" classname="EncryptDecryptTest" time="0.235">
+    <failure message="java.lang.AssertionError: Wrong answer in test #1&#10;&#10;You should output a line with length 21. You output a line with length 0" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #1
 
-java.lang.NumberFormatException: null
-	at java.base/java.lang.Integer.parseInt(Integer.java:614)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at encryptdecrypt.Main.main(Main.java:18)
-
-Please find below the output of your program during this failed test.
-Note that the '&gt;' character indicates the beginning of the input line.
-
----
-
-&gt; welcome to hyperskill
-&gt; 5
+You should output a line with length 21. You output a line with length 0
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -69,8 +58,7 @@ Note that the '&gt;' character indicates the beginning of the input line.
   </testcase>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-> welcome to hyperskill
-> 5
+
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
