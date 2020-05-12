@@ -1,9 +1,9 @@
 package encryptdecrypt;
 
-public class UnicodeAlgorithm {
+public class UnicodeAlgorithm implements Algorithms{
 
 
-    public static String enc(int key, char[] textToChar) {
+    public String enc(int key, char[] textToChar) {
         char[] output = new char[textToChar.length];
         int charNumber = 0;
 
@@ -14,7 +14,7 @@ public class UnicodeAlgorithm {
         return String.valueOf(output);
     }
 
-    public static String dec(int key, char[] textToChar) {
+    public String dec(int key, char[] textToChar) {
 
         char[] output = new char[textToChar.length];
         int charNumber = 0;

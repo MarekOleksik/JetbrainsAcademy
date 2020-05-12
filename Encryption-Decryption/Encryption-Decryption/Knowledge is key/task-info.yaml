@@ -98,6 +98,9 @@ files:
 - name: src/encryptdecrypt/Main.java
   visible: true
   learner_created: true
+- name: src/encryptdecrypt/Algorithms.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/246/implement
 status: Failed
 record: 3

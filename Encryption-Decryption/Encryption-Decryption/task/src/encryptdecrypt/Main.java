@@ -27,23 +27,25 @@ public class Main {
         checkArguments(args);
 
         char[] textToChar = getText().toCharArray();
-        System.out.println("key: " + getKey());
-        System.out.println("text: " + getText());
-        System.out.println("method: " + getMethod());
+        //System.out.println("key: " + getKey());
+        //System.out.println("text: " + getText());
+        //System.out.println("method: " + getMethod());
 
         switch (getAlgorithm()) {
             case "shift":
+                Algorithms shiftAlgorithm = new ShiftAlgorithm();
                 if ("enc".equals(getMethod())) {
-                    result = ShiftAlgorithm.enc(getKey(), textToChar);
+                    result = shiftAlgorithm.enc(getKey(), textToChar);
                 } else {
-                    result = ShiftAlgorithm.dec(getKey(), textToChar);
+                    result = shiftAlgorithm.dec(getKey(), textToChar);
                 }
                 break;
             case "unicode":
+                Algorithms unicodeAlgorithm = new UnicodeAlgorithm();
                 if ("enc".equals(getMethod())) {
-                    result = UnicodeAlgorithm.enc(getKey(), textToChar);
+                    result = unicodeAlgorithm.enc(getKey(), textToChar);
                 } else {
-                    result = UnicodeAlgorithm.dec(getKey(), textToChar);
+                    result = unicodeAlgorithm.dec(getKey(), textToChar);
                 }
                 break;
         }
