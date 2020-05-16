@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class Main {
 
-    private final static Scanner scanner = new Scanner(System.in).useDelimiter("\\s");
     private static boolean isExport = false;
     private static String exportFileName = "";
     private static boolean isDataPresent = false;
@@ -30,6 +29,7 @@ public class Main {
         //System.out.println("key: " + getKey());
         //System.out.println("text: " + getText());
         //System.out.println("method: " + getMethod());
+        //System.out.println("algorithm: " + getAlgorithm());
 
         switch (getAlgorithm()) {
             case "shift":
@@ -50,10 +50,9 @@ public class Main {
                 break;
         }
 
-        result = encrypt(getKey(), textToChar, getMethod());
         System.out.println(result);
 
-        if (isIsExport()) {
+        if (isExport()) {
             exportToFile(getExportFileName(), result);
         }
 
@@ -81,26 +80,6 @@ public class Main {
         printWriter.flush();
     }
 
-    private static String encrypt(int key, char[] textToChar, String method) {
-        char[] output = new char[textToChar.length];
-        int charNumber = 0;
-
-        for (int i = 0; i < textToChar.length; i++) {
-            charNumber = textToChar[i];
-            if ("enc".equals(method)) {
-                output[i] = (char) (charNumber + key);
-            } else if ("dec".equals(method)) {
-                output[i] = (char) (charNumber - getKey());
-            }
-        }
-        return String.valueOf(output);
-    }
-
-    private static String getUserInput() {
-        String answer = scanner.nextLine();
-        return answer;
-    }
-
     private static void checkArguments(String[] args) throws FileNotFoundException {
 
         for (int i = 0; i < args.length; i++) {
@@ -126,14 +105,14 @@ public class Main {
                 setAlgorithm(args[i + 1]);
             }
         }
-        if (isIsDataPresent()) {
+        if (isDataPresent()) {
             setText(args[getDataIndex()]);
-        } else if (isIsInPresent()) {
+        } else if (isInPresent()) {
             setText(importFromFile(args[getInIndex()]));
         }
     }
 
-    public static boolean isIsExport() {
+    public static boolean isExport() {
         return isExport;
     }
 
@@ -149,7 +128,7 @@ public class Main {
         Main.exportFileName = exportFileName;
     }
 
-    public static boolean isIsDataPresent() {
+    public static boolean isDataPresent() {
         return isDataPresent;
     }
 
@@ -165,7 +144,7 @@ public class Main {
         Main.dataIndex = dataIndex;
     }
 
-    public static boolean isIsInPresent() {
+    public static boolean isInPresent() {
         return isInPresent;
     }
 
