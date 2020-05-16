@@ -172,11 +172,6 @@ files:
 
     }
   learner_created: false
-- name: test/output.txt
-  visible: true
-  text: |
-    111122223333
-  learner_created: false
 - name: src/encryptdecrypt/Main.java
   visible: true
   text: |+
@@ -366,37 +361,6 @@ files:
         }
     }
 
-  learner_created: true
-- name: src/encryptdecrypt/output.txt
-  visible: true
-  text: |2+
-
-  learner_created: true
-- name: output.txt
-  visible: true
-  text: |2+
-
-  learner_created: true
-- name: in.txt
-  visible: true
-  text: Welcome to hyperskill!
-  learner_created: true
-- name: src/encryptdecrypt/road_to_treasure.txt.txt
-  visible: true
-  text: Welcome to hyperskill!
-  learner_created: true
-- name: src/encryptdecrypt/in.txt
-  visible: true
-  text: Welcome to hyperskill!
-  learner_created: true
-- name: src/encryptdecrypt/ShiftAlgorithm.java
-  visible: true
-  learner_created: true
-- name: src/encryptdecrypt/UnicodeAlgorithm.java
-  visible: true
-  learner_created: true
-- name: src/encryptdecrypt/Algorithms.java
-  visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/250/implement
 status: Solved
