@@ -11,6 +11,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/Area of a circle" />
+            <option value="$PROJECT_DIR$/Problems/Distance" />
+            <option value="$PROJECT_DIR$/Problems/Find X" />
             <option value="$PROJECT_DIR$/Readability Score/task" />
             <option value="$PROJECT_DIR$/util" />
           </set>
