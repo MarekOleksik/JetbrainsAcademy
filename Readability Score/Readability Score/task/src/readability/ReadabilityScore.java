@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ReadabilityScore {
 
@@ -26,8 +28,8 @@ public class ReadabilityScore {
     double characters;
     double words;
     double sentences;
-    double syllables;
-    double polysyllables;
+    int syllables;
+    int polysyllables;
     private String ageFleschKincaid;
     private String ageSimpleMeasureOfGobbledygook;
     private String ageColemanLiauIndex;
@@ -35,7 +37,6 @@ public class ReadabilityScore {
 
     void importFromFile(String filePath) throws IOException {
         File file = new File(filePath);
-        String output = "";
         if (!file.exists()) {
             System.out.println("File not found.");
         } else {
@@ -63,14 +64,17 @@ public class ReadabilityScore {
             for (String t : stringOfWords) {
                 if (!t.isEmpty()) {
                     listOfWords.add(t);
+                    syllables += syllables(t);
+                    //System.out.println("word: " + t + " syllables: " + syllables(t));
+                    if (syllables(t) > 2) {
+                        polysyllables++;
+                    }
                 }
             }
         }
         characters = listOfCharacters.size();
         words = listOfWords.size();
         sentences = stringsOfText.length;
-        syllables = 0;
-        polysyllables = 0;
 
         calculateScore();
         calculateAge();
@@ -134,8 +138,10 @@ public class ReadabilityScore {
                 age = "24";
                 break;
             case 14:
-                age = "24+";
+                age = "24";
                 break;
+            default:
+                age = "24";
         }
         return age;
     }
@@ -146,11 +152,12 @@ public class ReadabilityScore {
         System.out.println("Words: " + listOfWords.size());
         System.out.println("Sentences: " + stringsOfText.length);
         System.out.println("Characters: " + listOfCharacters.size());
-        System.out.println("Syllables: ");
-        System.out.println("Polysyllables: ");
+        System.out.println("Syllables: " + syllables);
+        System.out.println("Polysyllables: " + polysyllables);
     }
 
     public void calculateReadabilityScore(String inputScore) {
+        System.out.println();
         switch (inputScore) {
             case "ARI":
                 printARI();
@@ -208,6 +215,46 @@ public class ReadabilityScore {
     public String askForAlgorithm() {
         System.out.print("Enter the score you want to calculate (ARI, FK, SMOG, CL, all): ");
         return scanner.next();
+    }
+
+    public int syllables(String word) {
+        int count = 0;
+        word = word.toLowerCase();
+
+        if (word.charAt(word.length() - 1) == 'e') {
+            if (silente(word)) {
+                String newword = word.substring(0, word.length() - 1);
+                count = count + countit(newword);
+            } else {
+                count++;
+            }
+        } else {
+            count = count + countit(word);
+        }
+        return count;
+    }
+
+    private int countit(String word) {
+        int count = 0;
+        Pattern splitter = Pattern.compile("[^aeiouy]*[aeiouy]+");
+        Matcher m = splitter.matcher(word);
+
+        while (m.find()) {
+            count++;
+        }
+        return count;
+    }
+
+    private boolean silente(String word) {
+        word = word.substring(0, word.length() - 1);
+
+        Pattern yup = Pattern.compile("[aeiouy]");
+        Matcher m = yup.matcher(word);
+
+        if (m.find()) {
+            return true;
+        } else
+            return false;
     }
 
 }
