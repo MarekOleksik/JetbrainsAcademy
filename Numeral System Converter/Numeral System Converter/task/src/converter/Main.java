@@ -17,6 +17,7 @@ public class Main {
         }
 
 
+
         String[] splittedIntoIntegerAndFractional = new String[0];
 
         int integerPartDecimal = 0;
