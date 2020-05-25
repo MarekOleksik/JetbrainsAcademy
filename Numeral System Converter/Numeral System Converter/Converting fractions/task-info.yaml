@@ -145,6 +145,46 @@ files:
         }
     }
   learner_created: false
+- name: src/converter/Main.java
+  visible: true
+  text: |
+    package converter;
+
+    import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int sourceRadix = scanner.nextInt();
+            String sourceNumber = scanner.next();
+            int targetRadix = scanner.nextInt();
+            int decimalNumber = 0;
+
+            if (sourceRadix == 1) {
+                String[] sourceNumbers = sourceNumber.split("");
+                for (int i = 0; i < sourceNumbers.length; i++) {
+                    decimalNumber += Integer.parseInt(sourceNumbers[i]);
+                }
+            } else {
+                decimalNumber = Integer.parseInt(sourceNumber, sourceRadix);
+            }
+
+            if (targetRadix == 1) {
+                String result = "";
+                for (int i = 0; i < decimalNumber; i++) {
+                    result += "1";
+                }
+                System.out.println(result);
+            } else {
+                System.out.println(Integer.toString(decimalNumber, targetRadix));
+            }
+
+        }
+    }
+  learner_created: true
+- name: src/converter/DigitsConverter.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/41/stages/218/implement
-status: Unchecked
+status: Solved
 record: -1
