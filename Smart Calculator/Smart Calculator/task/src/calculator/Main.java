@@ -13,13 +13,21 @@ public class Main {
             input = scanner.nextLine();
             if (input.isEmpty()) continue;
             if (endProgram(input)) break;
+            if ("/help".equals(input)) {
+                System.out.println("The program calculates the sum of numbers");
+                continue;
+            }
 
             String[] items = input.split(" ");
+            int result = 0;
             if (items.length <= 1) {
-                System.out.println(Integer.parseInt(items[0]));
+                result = Integer.parseInt(items[0]);
             } else {
-                System.out.println(Integer.parseInt(items[0]) + Integer.parseInt(items[1]));
+                for (int i = 0; i < items.length; i++) {
+                    result += Integer.parseInt(items[i]);
+                }
             }
+            System.out.println(result);
         }
     }
 
