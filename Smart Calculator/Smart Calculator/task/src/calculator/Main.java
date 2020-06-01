@@ -21,8 +21,11 @@ public class Main {
                 System.out.println("The even number of minuses gives a plus, and the odd number of minuses gives a minus!");
                 continue;
             }
+            String inputReplaced = input.replaceAll("\\s+", " ").replaceAll("\\+\\+\\+", "+")
+                    .replaceAll("\\+\\+", "+").replaceAll("---", "-")
+                    .replaceAll("--", "+");
 
-            String[] items = input.split("\\s+");
+            String[] items = inputReplaced.split("\\s+");
             for (String item : items) {
                 //System.out.println("item: " + item);
             }
@@ -33,11 +36,11 @@ public class Main {
                     //System.out.println("result: " + result);
                     //System.out.println("items[i+1]: " + items[i+1]);
                     switch (items[i]) {
-                        case "+" :
-                            result = result + Integer.parseInt(items[i+1]);
+                        case "+":
+                            result = result + Integer.parseInt(items[i + 1]);
                             break;
-                        case "-" :
-                            result = result - Integer.parseInt(items[i+1]);
+                        case "-":
+                            result = result - Integer.parseInt(items[i + 1]);
                             break;
                     }
                     i++;
